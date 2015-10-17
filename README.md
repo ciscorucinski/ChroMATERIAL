@@ -51,8 +51,17 @@ A range of syntax highlighting...
 
 |                  | M1  | M2  | M3  |
 | :--------------: | --- | --- | --- |
-| **Improvements** | Still needs to:<ul><li>Improve existing language support<li>Extend language support |||
+| **Improvements** | Still needs to:<ul><li>Improve existing language support<li>Extend language support |   |   |
 | **Notes**        |     | Minor changes needed:<ul><li>Syntax highlights remain<li>Background colors change |  Major changes needed:<ul><li>Syntax highlights change or rethought completely<li>Background colors change |
+
+<!-- ========================================================== -->
+#Special Thanks
+
+ - Google for [Material Design][material] and the attention to color
+ 
+ - [ChrisRM][chris-rm] for porting a [Material Theme][chris-rm_theme] over to all of JetBrain's IDEs. I have been wanting to create a Material color scheme for Android Studio for a while now, but always found starting this to be too combersome. With your inital color scheme, I was able to get started easily and finally got a look that I love. 
+
+   From that point, I created ChroMATERIAL to further specific goals of mine.
 
 <!-- ===================== References ========================= -->
 
@@ -65,6 +74,8 @@ A range of syntax highlighting...
 <!-- links -->
 [material]: http://www.google.co.kr/design/spec/material-design/introduction.html#
 [android-vision]: https://github.com/googlesamples/android-vision
+[chris-rm]: https://github.com/ChrisRM
+[chris-rm_theme]: https://github.com/ChrisRM/material-theme-jetbrains
 
 <!-- files -->
 [jar]: ChroMATERIAL.jar
