@@ -22,10 +22,10 @@ A range of syntax highlighting...
 
 **Color Scheme Milestones**
 
-|           | M1      | M2       | M3    |
-| --------- | ------- | -------- | ----- |
-|           | Regular | Darcula  | Light |
-| **Done?** | Yes     | No       | No    |
+|              | M1      | M2       | M3    |
+| ------------ | :-----: | :------: | :---: |
+|              | Regular | Darcula  | Light |
+| **Achieved** | ![yes]  | ![no]    | ![no] |
 
 **Milestone Notes**
 
@@ -39,6 +39,8 @@ A range of syntax highlighting...
 <!-- images -->
 [img_normal]: https://cloud.githubusercontent.com/assets/8707125/10559945/814a770c-7536-11e5-99d4-efd4d03ea3f5.PNG
 [img_range]: https://cloud.githubusercontent.com/assets/8707125/10559946/814af8bc-7536-11e5-8666-102db39305f0.PNG
+[yes]: https://cloud.githubusercontent.com/assets/8707125/10560554/6e30a660-7549-11e5-95ec-a07b0c049339.png
+[no]: https://cloud.githubusercontent.com/assets/8707125/10560555/7263eddc-7549-11e5-8939-bfd2d6141f11.png
 
 <!-- links -->
 [material]: http://www.google.co.kr/design/spec/material-design/introduction.html#
