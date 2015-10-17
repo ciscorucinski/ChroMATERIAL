@@ -24,8 +24,8 @@ A range of syntax highlighting...
 
 |              | M1      | M2       | M3    |
 | ------------ | :-----: | :------: | :---: |
-|              | Regular | Darcula  | Light |
 | **Achieved** | ![yes]  | ![no]    | ![no] |
+|              | Regular | Darcula  | Light |
 
 **Milestone Notes**
 
