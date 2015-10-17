@@ -2,9 +2,7 @@
 # ChroMATERIAL
 ChroMATERIAL is a color scheme that expresses the chromatic nature of [Material Design][material] within IntelliJ and Android Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor. It's uniqueness lies in the idea...
 
-> Enhance the influence; not the banal
-
-**Please Note** this project is a work-in-progress.
+> **Enhance the influence; not the banal**
 
 <!-- ========================================================== -->
 #Screenshots
@@ -17,6 +15,28 @@ A range of syntax highlighting...
 
 **Note** these images contain code from [Google's Android Vision API][android-vision] barcode sample app.
 
+<!-- ========================================================== -->
+#Installation
+
+ 1. Download [ChroMATERIAL][jar] Jar file
+ 2. Open IDE
+ 
+   `File` >> `Import Settings...`
+
+ 3. Locate downloaded ChroMATERIAL Jar file
+
+   Check `Editor Colors` >> `OK`
+
+ 4. `File` >> `Settings` >> `Editor` >> `Colors & Fonts`
+
+   `Scheme` >> Choose `ChroMATERIAL`
+ 
+ 
+**Optional**
+
+ - Modify the font type to your preference
+ - Modify the syntax highlighting to fit your particular tastes
+ 
 <!-- ========================================================== -->
 #Roadmap
 
@@ -45,3 +65,6 @@ A range of syntax highlighting...
 <!-- links -->
 [material]: http://www.google.co.kr/design/spec/material-design/introduction.html#
 [android-vision]: https://github.com/googlesamples/android-vision
+
+<!-- files -->
+[jar]: ChroMATERIAL.jar
