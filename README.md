@@ -23,14 +23,14 @@ A range of syntax highlighting...
 **Color Scheme Milestones**
 
 |              | M1      | M2       | M3    |
-| ------------ | :-----: | :------: | :---: |
+| :----------: | :-----: | :------: | :---: |
 | **Achieved** | ![yes]  | ![no]    | ![no] |
-|              | Regular | Darcula  | Light |
+|              | Regular | Darcula<br>compatible  | Light |
 
 **Milestone Notes**
 
 |                  | M1  | M2  | M3  |
-| ---------------- | --- | --- | --- |
+| :--------------: | --- | --- | --- |
 | **Improvements** | Still needs to:<ul><li>Improve existing language support<li>Extend language support |||
 | **Notes**        |     | Minor changes needed:<ul><li>Syntax highlights remain<li>Background colors change |  Major changes needed:<ul><li>Syntax highlights change or rethought completely<li>Background colors change |
 
