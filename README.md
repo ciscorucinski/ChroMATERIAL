@@ -2,7 +2,7 @@
 # ChroMATERIAL
 ChroMATERIAL is a color scheme that expresses the chromatic nature of [Material Design][material] within IntelliJ and Android Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor. It's uniqueness lies in the idea...
 
-> **Enhance the influence; not the banal**
+> **Enhance influence, not banality**
 
 <!-- ========================================================== -->
 #Screenshots
