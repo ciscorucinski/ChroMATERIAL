@@ -80,4 +80,4 @@ A range of syntax highlighting...
 [chris-rm_theme]: https://github.com/ChrisRM/material-theme-jetbrains
 
 <!-- files -->
-[jar]: ChroMATERIAL.jar
+[jar]: install/ChroMATERIAL.jar
