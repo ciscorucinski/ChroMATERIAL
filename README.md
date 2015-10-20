@@ -1,6 +1,6 @@
 <!-- ========================================================== -->
 # ChroMATERIAL
-ChroMATERIAL is a color scheme that expresses the chromatic nature of [Material Design][material] within IntelliJ and Android Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor. 
+ChroMATERIAL is a color scheme that expresses the chromatic nature of [Material Design][material] within IntelliJ and Android Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor.
 
 It's uniqueness lies in the idea...
 
@@ -22,7 +22,7 @@ A range of syntax highlighting...
 
  1. Download [ChroMATERIAL][jar] Jar file
  2. Open IDE
- 
+
    `File` >> `Import Settings...`
 
  3. Locate downloaded ChroMATERIAL Jar file
@@ -32,13 +32,13 @@ A range of syntax highlighting...
  4. `File` >> `Settings` >> `Editor` >> `Colors & Fonts`
 
    `Scheme` >> Choose `ChroMATERIAL`
- 
- 
+
+
 **Optional**
 
  - Modify the font type to your preference
  - Modify the syntax highlighting to fit your particular tastes
- 
+
 <!-- ========================================================== -->
 #Roadmap
 
@@ -60,8 +60,8 @@ A range of syntax highlighting...
 #Special Thanks
 
  - Google for [Material Design][material] and the attention to color
- 
- - [ChrisRM][chris-rm] for porting a [Material Theme][chris-rm_theme] over to all of JetBrain's IDEs. I have been wanting to create a Material color scheme for Android Studio for a while now, but always found starting this to be too combersome. With your inital color scheme, I was able to get started easily and finally got a look that I love. 
+
+ - [ChrisRM][chris-rm] for porting a [Material Theme][chris-rm_theme] over to all of JetBrain's IDEs. I have been wanting to create a Material color scheme for Android Studio for a while now, but always found starting this to be too combersome. With your inital color scheme, I was able to get started easily and finally got a look that I love.
 
    From that point, I created ChroMATERIAL to further specific goals of mine.
 
@@ -80,4 +80,4 @@ A range of syntax highlighting...
 [chris-rm_theme]: https://github.com/ChrisRM/material-theme-jetbrains
 
 <!-- files -->
-[jar]: ChroMATERIAL.jar
+[jar]: install/ChroMATERIAL.jar
