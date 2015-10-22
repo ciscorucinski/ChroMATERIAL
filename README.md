@@ -6,6 +6,14 @@ It's uniqueness lies in the idea...
 
 > **Enhance influence, not banality**
 
+**Support**
+<br><kbd>Android</kbd> <kbd>Android Resources</kbd> <kbd>Android Manifest</kbd> <kbd>Gradle</kbd> <kbd>Logcat</kbd> 
+<kbd>Java</kbd> 
+<kbd>XML</kbd> 
+<kbd>HTML</kbd> <kbd>JSON</kbd>
+<kbd>Properties</kbd>
+<kbd>Groovy</kbd>
+<kbd>diff</kbd>
 <!-- ========================================================== -->
 #Screenshots
 
@@ -25,7 +33,8 @@ A range of syntax highlighting...
 
 **Install Color Scheme**
  2. Open IDE and locate <kbd>File >> Import Settings...</kbd>.
- 3. Locate the <kbd>ChroMATERIAL Jar file</kbd> in the list, click <kbd>OK</kbd> Check <kbd>Editor Colors</kbd> and click <kbd>OK</kbd>.
+ 3. Locate the <kbd>ChroMATERIAL Jar file</kbd> in the list, click <kbd>OK</kbd> 
+ 4. Check <kbd>Editor Colors</kbd> and click <kbd>OK</kbd>.
 
 **Use Color Scheme** 
  5. Locate <kbd>File >> Settings >> Editor >> Colors & Fonts >> Scheme</kbd> choose <kbd>ChroMATERIAL</kbd> and click <kbd>Apply</kbd> / <kbd>OK</kbd>.
