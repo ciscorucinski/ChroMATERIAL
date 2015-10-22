@@ -6,8 +6,8 @@ It's uniqueness lies in the idea...
 
 > **Enhance influence, not banality**
 
-######Support
-<kbd>Android</kbd> <kbd>Android Resources</kbd> <kbd>Android Manifest</kbd> <kbd>Gradle</kbd> <kbd>Logcat</kbd> 
+**Support**
+<br><kbd>Android</kbd> <kbd>Android Resources</kbd> <kbd>Android Manifest</kbd> <kbd>Gradle</kbd> <kbd>Logcat</kbd> 
 <kbd>Java</kbd> 
 <kbd>XML</kbd> 
 <kbd>HTML</kbd> <kbd>JSON</kbd>
