@@ -20,21 +20,17 @@ A range of syntax highlighting...
 <!-- ========================================================== -->
 #Installation
 
- 1. Download [ChroMATERIAL][jar] Jar file
- 2. Open IDE
+**Retrieve from the Internet**
+ 1. Download <kbd>[ChroMATERIAL][jar] Jar file</kbd>.
+
+**Install Color Scheme**
+ 2. Open IDE and locate <kbd>File >> Import Settings...</kbd>.
+ 3. Locate the <kbd>ChroMATERIAL Jar file</kbd> in the list, click <kbd>OK</kbd> Check <kbd>Editor Colors</kbd> and click <kbd>OK</kbd>.
+
+**Use Color Scheme** 
+ 5. Locate <kbd>File >> Settings >> Editor >> Colors & Fonts >> Scheme</kbd> choose <kbd>ChroMATERIAL</kbd> and click <kbd>Apply</kbd> / <kbd>OK</kbd>.
  
-   `File` >> `Import Settings...`
-
- 3. Locate downloaded ChroMATERIAL Jar file
-
-   Check `Editor Colors` >> `OK`
-
- 4. `File` >> `Settings` >> `Editor` >> `Colors & Fonts`
-
-   `Scheme` >> Choose `ChroMATERIAL`
- 
- 
-**Optional**
+###Optional
 
  - Modify the font type to your preference
  - Modify the syntax highlighting to fit your particular tastes
