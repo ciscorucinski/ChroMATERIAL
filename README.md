@@ -19,13 +19,12 @@ It's uniqueness lies in the idea...
 <!-- ========================================================== -->
 #Screenshots
 
-A normal display of syntax highlighting...
+Standard syntax coloring...<br>
 ![chromaterial_color-range_main][img_normal]
 
-A range of syntax highlighting...
+Color syntax range...<br>
 ![chromaterial_color-range][img_range]
-
-**Note** these images contain code from [Google's Android Vision API][android-vision] barcode sample app.
+<br><sub><sup>**Note** these images contain code from [Google's Android Vision API][android-vision] barcode sample app. </sup></sub>
 
 <!-- ========================================================== -->
 #Installation
