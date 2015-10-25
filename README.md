@@ -25,7 +25,7 @@ A normal display of syntax highlighting...
 A range of syntax highlighting...
 ![chromaterial_color-range][img_range]
 
-**Note** these images contain code from [Google's Android Vision API][android-vision] barcode sample app.
+<sub><sup>**Note** these images contain code from [Google's Android Vision API][android-vision] barcode sample app. </sup></sub>
 
 <!-- ========================================================== -->
 #Installation
