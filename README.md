@@ -44,8 +44,8 @@ A range of syntax highlighting...
  
 ###Optional
 
- - Modify the font type to your preference
- - Modify the syntax highlighting to fit your particular tastes
+ - Modify the **font type** to your preference
+ - Modify the **syntax highlighting** further to fit your particular tastes.
  
 <!-- ========================================================== -->
 #Roadmap
