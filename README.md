@@ -1,6 +1,6 @@
 <!-- ========================================================== -->
 # ChroMATERIAL
-ChroMATERIAL is a color scheme that expresses the chromatic nature of [Material Design][material] within IntelliJ and Android Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor. 
+ChroMATERIAL is a color scheme that expresses the chromatic nature of [Material Design][material] within JetBrain IDEs and Android Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor. 
 
 It's uniqueness lies in the idea...
 
@@ -10,11 +10,12 @@ It's uniqueness lies in the idea...
 
 | Type          | Support |
 | :-----------: | :------ |
-| **IDEs**      | <kbd>Android Studio</kbd> <kbd>IntelliJ IDEA</kbd> <kbd> RubyMine</kbd> <kbd>WebStorm</kbd> <kbd>PhpStorm</kbd> <kbd>PyCharm</kbd> <kbd>AppCode</kbd> <kbd>CLion</kbd> <kbd>0xDBE</kbd> <br><sub><sup>ChroMATERIAL supports **Text Editor** changes only. [ChroMATERIAL + [Material Theme][chris-rm_theme]] will modify the whole IDE!</sup></sub> |
+| **IDEs**      | <kbd>Android Studio</kbd> <kbd>IntelliJ IDEA</kbd> <kbd> RubyMine</kbd> <kbd>WebStorm</kbd> <kbd>PhpStorm</kbd> <kbd>PyCharm</kbd> <kbd>AppCode</kbd> <kbd>CLion</kbd> <kbd>0xDBE</kbd> <br><sub><sup>ChroMATERIAL supports **Text Editor** changes only. <br>ChroMATERIAL + [Material Theme][chris-rm_theme] will modify the whole IDE!</sup></sub> |
 |||
 | **Languages** | <kbd>Java</kbd> <kbd>Android</kbd> <kbd>Groovy</kbd> <kbd>XML</kbd> <kbd>JSON</kbd> <kbd>HTML</kbd> <br><sub><sup>**Pull Requests** are welcome.</sup></sub> |
 |||
 | **Others**    | <kbd>Android Manifest</kbd> <kbd>Android Resources</kbd> <kbd>Gradle</kbd> <kbd>Logcat</kbd> <kbd>Property Files</kbd> <kbd>diff</kbd> <br><sub><sup>**Pull Requests** are welcome.</sup></sub> |
+
 <!-- ========================================================== -->
 #Screenshots
 
