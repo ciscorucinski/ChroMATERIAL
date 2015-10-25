@@ -39,7 +39,8 @@ A range of syntax highlighting...
  4. Check <kbd>Editor Colors</kbd> and click <kbd>OK</kbd>.
 
 **Use Color Scheme** 
- 5. Locate <kbd>File >> Settings >> Editor >> Colors & Fonts >> Scheme</kbd> choose <kbd>ChroMATERIAL</kbd> and click <kbd>Apply</kbd> / <kbd>OK</kbd>.
+ 5. Locate <kbd>File >> Settings >> Editor >> Colors & Fonts >> Scheme</kbd> 
+ 6. Choose <kbd>ChroMATERIAL</kbd> and click <kbd>Apply</kbd> / <kbd>OK</kbd>.
  
 ###Optional
 
