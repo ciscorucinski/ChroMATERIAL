@@ -52,11 +52,8 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 <!-- ========================================================== -->
 #Screenshots
 
-Standard syntax coloring...<br>
-![chromaterial_color-range_main][img_normal]
-
-Color syntax range...<br>
-![chromaterial_color-range][img_range]
+| ![chromaterial_color-range_main][img_normal] Standard syntax coloring | ![chromaterial_color-range][img_range] Color syntax range |
+| :-----------: | :--------: |
 <br><sub><sup>**Note** these images contain code from [Google's Android Vision API][android-vision] barcode sample app. </sup></sub>
  
 <!-- ========================================================== -->
