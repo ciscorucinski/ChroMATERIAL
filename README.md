@@ -60,6 +60,7 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
  - Modify the **syntax highlighting** further to fit your particular tastes.
  
 <!-- ========================================================== -->
+<!--
 #Roadmap
 
 **Color Scheme Milestones**
@@ -75,7 +76,7 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 | :--------------: | --- | --- | --- |
 | **Improvements** | Still needs to:<ul><li>Improve existing language support<li>Extend language support |   |   |
 | **Notes**        |     | Minor changes needed:<ul><li>Syntax highlights remain<li>Background colors change |  Major changes needed:<ul><li>Syntax highlights change or rethought completely<li>Background colors change |
-
+-->
 <!-- ========================================================== -->
 #Special Thanks
 
