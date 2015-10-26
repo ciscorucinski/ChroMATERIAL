@@ -54,26 +54,8 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 
 | ![chromaterial_color-range_main][img_normal] Standard syntax coloring | ![chromaterial_color-range][img_range] Color syntax range |
 | :-----------: | :--------: |
-<br><sub><sup>**Note** these images contain code from [Google's Android Vision API][android-vision] barcode sample app. </sup></sub>
- 
-<!-- ========================================================== -->
-<!--
-#Roadmap
+<sub><sup>**Note** these images contain code from [Google's Android Vision API][android-vision] barcode sample app. </sup></sub>
 
-**Color Scheme Milestones**
-
-|              | M1      | M2       | M3    |
-| :----------: | :-----: | :------: | :---: |
-| **Achieved** | ![yes]  | ![no]    | ![no] |
-|              | Regular | Darcula<br>compatible  | Light |
-
-**Milestone Notes**
-
-|                  | M1  | M2  | M3  |
-| :--------------: | --- | --- | --- |
-| **Improvements** | Still needs to:<ul><li>Improve existing language support<li>Extend language support |   |   |
-| **Notes**        |     | Minor changes needed:<ul><li>Syntax highlights remain<li>Background colors change |  Major changes needed:<ul><li>Syntax highlights change or rethought completely<li>Background colors change |
--->
 <!-- ========================================================== -->
 #Special Thanks
 
@@ -102,7 +84,7 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 [readme]: README.md
 
 <!-- badges -->
-[plugin_img]: https://img.shields.io/badge/JetBrain%20Plugin%20Repository%20ID-7998-blue.svg?style=flat-square
+[plugin_img]: https://img.shields.io/badge/JetBrain%20Plugin%20Repository-7998-blue.svg?style=flat-square
 [plugin_link]: https://plugins.jetbrains.com/plugin/7998
 
 [license_img]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
