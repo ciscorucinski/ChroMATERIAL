@@ -1,5 +1,5 @@
 <!-- ========================================================== -->
-[![plugin_img]][plugin_link]
+[![plugin_img]][plugin_link] [![license_img]][license_link]
 
 # ChroMATERIAL
 ChroMATERIAL is a color scheme that expresses the chromatic nature of [Material Design][material] within JetBrain IDEs and Android Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor. 
@@ -103,4 +103,7 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 <!-- badges -->
 [plugin_img]: https://img.shields.io/badge/JetBrain%20Plugin%20Repository%20ID-7998-blue.svg?style=flat-square
 [plugin_link]: https://plugins.jetbrains.com/plugin/7998
+
+[license_img]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
+[license_link]: LICENSE
 
