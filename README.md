@@ -1,4 +1,6 @@
 <!-- ========================================================== -->
+[![dark_img]][dark_link] [![darcula_img]][darcula_link] [![light_img]][light_link]
+
 [![plugin_img]][plugin_link] [![license_img]][license_link]
 
 # ChroMATERIAL
@@ -107,3 +109,11 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 [license_img]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license_link]: LICENSE
 
+[dark_img]:
+[dark_link]:
+
+[darcula_img]:
+[darcula_link]:
+
+[light_img]:
+[light_link]:
