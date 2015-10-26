@@ -101,6 +101,6 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 [jar]: install/ChroMATERIAL.jar
 
 <!-- badges -->
-[plugin_img]: https://img.shields.io/badge/JetBrain%20Plugin%20Repository-7998-blue.svg?style=flat-square
+[plugin_img]: https://img.shields.io/badge/JetBrain%20Plugin%20Repository%20ID-7998-blue.svg?style=flat-square
 [plugin_link]: https://plugins.jetbrains.com/plugin/7998
 
