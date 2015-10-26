@@ -33,7 +33,7 @@ Color syntax range...<br>
 
 **Find Plugin**
  1. Open IDE and locate <kbd>File >> Settings >> Plugins</kbd> and click <kbd>Browse Repositories...</kbd>
- 3. Search for <kbd>ChroMATERIAL</kbd> and <kbd>Install plugin</kbd>
+ 3. Search for and click <kbd>ChroMATERIAL</kbd> and click <kbd>Install plugin</kbd>
 
 <!--
 ####Manual
@@ -79,7 +79,7 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 
  - Google for [Material Design][material] and the attention to color
  
- - [ChrisRM][chris-rm] for porting a [Material Theme][chris-rm_theme] over to all of JetBrain's IDEs. I have been wanting to create a Material color scheme for Android Studio for a while now, but always found starting this to be too combersome. With your inital color scheme, I was able to get started easily and finally got a look that I love. 
+ - [ChrisRM][chris-rm] for porting a [Material Theme][chris-rm_theme] over to all of JetBrain's IDEs. I have been wanting to create a Material color scheme for Android Studio for a while now, but always found starting this to be too cumbersome. With your inital color scheme, I was able to get started easily and finally got a look that I love. 
 
    From that point, I created ChroMATERIAL to further specific goals of mine.
 
