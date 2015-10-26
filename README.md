@@ -1,5 +1,5 @@
 <!-- ========================================================== -->
-[![dark_img]][dark_link] [![darcula_img]][darcula_link] [![light_img]][light_link]
+![dark_img] ![darcula_img] ![light_img] 
 
 [![plugin_img]][plugin_link] [![license_img]][license_link]
 
@@ -109,11 +109,6 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 [license_img]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license_link]: LICENSE
 
-[dark_img]:
-[dark_link]:
-
-[darcula_img]:
-[darcula_link]:
-
-[light_img]:
-[light_link]:
+[dark_img]: https://img.shields.io/badge/Dark-In%20Progress-yellow.svg?style=flat-square
+[darcula_img]: https://img.shields.io/badge/Darcula%20Compatible-Future-red.svg?style=flat-square
+[light_img]: https://img.shields.io/badge/Light-Future-red.svg?style=flat-square
