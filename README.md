@@ -84,12 +84,12 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 [readme]: README.md
 
 <!-- badges -->
-[plugin_img]: https://img.shields.io/badge/JetBrain%20Plugin%20Repository-7998-blue.svg?style=flat-square
+[plugin_img]: https://img.shields.io/badge/JetBrain_Plugin_Repository-7998-blue.svg?style=flat-square
 [plugin_link]: https://plugins.jetbrains.com/plugin/7998
 
 [license_img]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license_link]: LICENSE
 
-[dark_img]: https://img.shields.io/badge/Dark%20Color%20Scheme-In%20Progress-yellow.svg?style=flat-square
-[darcula_img]: https://img.shields.io/badge/Darcula%20Compatible%20Color%20Scheme-Future-red.svg?style=flat-square
-[light_img]: https://img.shields.io/badge/Light%20Color%20Scheme-Future-red.svg?style=flat-square
+[dark_img]: https://img.shields.io/badge/Dark_Color_Scheme-In_Progress-yellow.svg?style=flat-square
+[darcula_img]: https://img.shields.io/badge/Darcula--compatible_Color_Scheme-Future-red.svg?style=flat-square
+[light_img]: https://img.shields.io/badge/Light_Color_Scheme-Future-red.svg?style=flat-square
