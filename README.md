@@ -1,5 +1,5 @@
 <!-- ========================================================== -->
-![dark_img] ![darcula_img] ![light_img] 
+[![dark_img]][readme] [![darcula_img]][readme] [![light_img]][readme]
 
 [![plugin_img]][plugin_link] [![license_img]][license_link]
 
@@ -101,6 +101,7 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 
 <!-- files -->
 [jar]: install/ChroMATERIAL.jar
+[readme]: README.md
 
 <!-- badges -->
 [plugin_img]: https://img.shields.io/badge/JetBrain%20Plugin%20Repository%20ID-7998-blue.svg?style=flat-square
@@ -109,6 +110,6 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 [license_img]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license_link]: LICENSE
 
-[dark_img]: https://img.shields.io/badge/Dark-In%20Progress-yellow.svg?style=flat-square
-[darcula_img]: https://img.shields.io/badge/Darcula%20Compatible-Future-red.svg?style=flat-square
-[light_img]: https://img.shields.io/badge/Light-Future-red.svg?style=flat-square
+[dark_img]: https://img.shields.io/badge/Dark%20Color%20Scheme-In%20Progress-yellow.svg?style=flat-square
+[darcula_img]: https://img.shields.io/badge/Darcula%20Compatible%20Color%20Scheme-Future-red.svg?style=flat-square
+[light_img]: https://img.shields.io/badge/Light%20Color%20Scheme-Future-red.svg?style=flat-square
