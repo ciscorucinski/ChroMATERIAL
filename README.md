@@ -1,4 +1,6 @@
 <!-- ========================================================== -->
+[![plugin_img]][plugin_link] [![license_img]][license_link]
+
 # ChroMATERIAL
 ChroMATERIAL is a color scheme that expresses the chromatic nature of [Material Design][material] within JetBrain IDEs and Android Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor. 
 
@@ -29,6 +31,14 @@ Color syntax range...<br>
 <!-- ========================================================== -->
 #Installation
 
+**Find Plugin**
+ 1. Open IDE and locate <kbd>File >> Settings >> Plugins</kbd> and click <kbd>Browse Repositories...</kbd>
+ 3. Search for <kbd>ChroMATERIAL</kbd> and <kbd>Install plugin</kbd>
+
+<!--
+####Manual
+Install ChroMATERIAL. This does NOT provide automatic updates.
+
 **Retrieve from the Internet**
  1. Download <kbd>[ChroMATERIAL][jar] Jar file</kbd>.
 
@@ -36,11 +46,12 @@ Color syntax range...<br>
  2. Open IDE and locate <kbd>File >> Import Settings...</kbd>.
  3. Locate the <kbd>ChroMATERIAL Jar file</kbd> in the list, click <kbd>OK</kbd> 
  4. Check <kbd>Editor Colors</kbd> and click <kbd>OK</kbd>.
+-->
 
 **Use Color Scheme** 
  5. Locate <kbd>File >> Settings >> Editor >> Colors & Fonts >> Scheme</kbd> 
  6. Choose <kbd>ChroMATERIAL</kbd> and click <kbd>Apply</kbd> / <kbd>OK</kbd>.
- 
+
 ###Optional
 
  - Modify the **font type** to your preference
@@ -88,3 +99,11 @@ Color syntax range...<br>
 
 <!-- files -->
 [jar]: install/ChroMATERIAL.jar
+
+<!-- badges -->
+[plugin_img]: https://img.shields.io/badge/JetBrain%20Plugin%20Repository%20ID-7998-blue.svg?style=flat-square
+[plugin_link]: https://plugins.jetbrains.com/plugin/7998
+
+[license_img]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
+[license_link]: LICENSE
+
