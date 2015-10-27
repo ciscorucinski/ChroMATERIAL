@@ -1,4 +1,6 @@
 <!-- ========================================================== -->
+[![dark_img]][readme] [![darcula_img]][readme] [![light_img]][readme]
+
 [![plugin_img]][plugin_link] [![license_img]][license_link]
 
 # ChroMATERIAL
@@ -8,25 +10,15 @@ It's uniqueness lies in the idea...
 
 > **Enhance influence, not banality**
 
-####Support
+#Support
 
-| Type          | Support |
-| :-----------: | :------ |
+| Type          | Supported |
+| :-----------: | :-------- |
 | **IDEs**      | <kbd>Android Studio</kbd> <kbd>IntelliJ IDEA</kbd> <kbd> RubyMine</kbd> <kbd>WebStorm</kbd> <kbd>PhpStorm</kbd> <kbd>PyCharm</kbd> <kbd>AppCode</kbd> <kbd>CLion</kbd> <kbd>0xDBE</kbd> <br><sub><sup>ChroMATERIAL supports **Text Editor** changes only. <br>ChroMATERIAL + [Material Theme][chris-rm_theme] will modify the whole IDE!</sup></sub> |
 |||
 | **Languages** | <kbd>Java</kbd> <kbd>Android</kbd> <kbd>Groovy</kbd> <kbd>XML</kbd> <kbd>JSON</kbd> <kbd>HTML</kbd> <br><sub><sup>**Pull Requests** are welcome.</sup></sub> |
 |||
 | **Others**    | <kbd>Android Manifest</kbd> <kbd>Android Resources</kbd> <kbd>Gradle</kbd> <kbd>Logcat</kbd> <kbd>Property Files</kbd> <kbd>diff</kbd> <br><sub><sup>**Pull Requests** are welcome.</sup></sub> |
-
-<!-- ========================================================== -->
-#Screenshots
-
-Standard syntax coloring...<br>
-![chromaterial_color-range_main][img_normal]
-
-Color syntax range...<br>
-![chromaterial_color-range][img_range]
-<br><sub><sup>**Note** these images contain code from [Google's Android Vision API][android-vision] barcode sample app. </sup></sub>
 
 <!-- ========================================================== -->
 #Installation
@@ -56,23 +48,13 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 
  - Modify the **font type** to your preference
  - Modify the **syntax highlighting** further to fit your particular tastes.
- 
+
 <!-- ========================================================== -->
-#Roadmap
+#Screenshots
 
-**Color Scheme Milestones**
-
-|              | M1      | M2       | M3    |
-| :----------: | :-----: | :------: | :---: |
-| **Achieved** | ![yes]  | ![no]    | ![no] |
-|              | Regular | Darcula<br>compatible  | Light |
-
-**Milestone Notes**
-
-|                  | M1  | M2  | M3  |
-| :--------------: | --- | --- | --- |
-| **Improvements** | Still needs to:<ul><li>Improve existing language support<li>Extend language support |   |   |
-| **Notes**        |     | Minor changes needed:<ul><li>Syntax highlights remain<li>Background colors change |  Major changes needed:<ul><li>Syntax highlights change or rethought completely<li>Background colors change |
+| ![chromaterial_color-range_main][img_normal] Standard syntax coloring | ![chromaterial_color-range][img_range] Color syntax range |
+| :-----------: | :--------: |
+<sub><sup>**Note** these images contain code from [Google's Android Vision API][android-vision] barcode sample app. </sup></sub>
 
 <!-- ========================================================== -->
 #Special Thanks
@@ -99,11 +81,15 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 
 <!-- files -->
 [jar]: install/ChroMATERIAL.jar
+[readme]: README.md
 
 <!-- badges -->
-[plugin_img]: https://img.shields.io/badge/JetBrain%20Plugin%20Repository%20ID-7998-blue.svg?style=flat-square
+[plugin_img]: https://img.shields.io/badge/JetBrain_Plugin_Repository-7998-blue.svg?style=flat-square
 [plugin_link]: https://plugins.jetbrains.com/plugin/7998
 
 [license_img]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license_link]: LICENSE
 
+[dark_img]: https://img.shields.io/badge/Dark_Color_Scheme-In_Progress-yellow.svg?style=flat-square
+[darcula_img]: https://img.shields.io/badge/Darcula--compatible_Color_Scheme-Future-red.svg?style=flat-square
+[light_img]: https://img.shields.io/badge/Light_Color_Scheme-Future-red.svg?style=flat-square
