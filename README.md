@@ -1,7 +1,7 @@
 <!-- ========================================================== -->
 [![dark_img]][readme] [![darcula_img]][readme] [![light_img]][readme]
 
-[![plugin_img]][plugin_link] [![license_img]][license_link]
+[![plugin_img]][plugin_link] [![license_img]][license_link] [![thanks_img]][thanks_link]
 
 # ChroMATERIAL
 ChroMATERIAL is a color scheme that expresses the chromatic nature of [Material Design][material] within JetBrain IDEs and Android Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor. 
@@ -56,15 +56,6 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 | :-----------: | :--------: |
 <sub><sup>**Note** these images contain code from [Google's Android Vision API][android-vision] barcode sample app. </sup></sub>
 
-<!-- ========================================================== -->
-#Special Thanks
-
- - Google for [Material Design][material] and the attention to color
- 
- - [ChrisRM][chris-rm] for porting a [Material Theme][chris-rm_theme] over to all of JetBrain's IDEs. I have been wanting to create a Material color scheme for Android Studio for a while now, but always found starting this to be too cumbersome. With your inital color scheme, I was able to get started easily and finally got a look that I love. 
-
-   From that point, I created ChroMATERIAL to further specific goals of mine.
-
 <!-- ===================== References ========================= -->
 
 <!-- images -->
@@ -90,6 +81,9 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 [license_img]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license_link]: LICENSE
 
-[dark_img]: https://img.shields.io/badge/Dark_Color_Scheme-In_Progress-yellow.svg?style=flat-square
+[dark_img]: https://img.shields.io/badge/Dark_Color_Scheme-In_Progress-green.svg?style=flat-square
 [darcula_img]: https://img.shields.io/badge/Darcula--compatible_Color_Scheme-Future-red.svg?style=flat-square
 [light_img]: https://img.shields.io/badge/Light_Color_Scheme-Future-red.svg?style=flat-square
+
+[thanks_img]: https://img.shields.io/badge/Special_Thanks-2-brightgreen.svg?style=flat-square
+[thanks_link]: THANKS.md
