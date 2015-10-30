@@ -10,6 +10,10 @@ It's uniqueness lies in the idea...
 
 > **Enhance influence, not banality**
 
+| ![chromaterial_color-range_main][img_normal] Standard syntax coloring | ![chromaterial_color-range][img_range] Color syntax range |
+| :-----------: | :--------: |
+<sub><sup>**Note** these images contain code from [Google's Android Vision API][android-vision] barcode sample app. </sup></sub>
+
 #Support
 
 | Type          | Supported |
@@ -48,13 +52,6 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 
  - Modify the **font type** to your preference
  - Modify the **syntax highlighting** further to fit your particular tastes.
-
-<!-- ========================================================== -->
-#Screenshots
-
-| ![chromaterial_color-range_main][img_normal] Standard syntax coloring | ![chromaterial_color-range][img_range] Color syntax range |
-| :-----------: | :--------: |
-<sub><sup>**Note** these images contain code from [Google's Android Vision API][android-vision] barcode sample app. </sup></sub>
 
 <!-- ===================== References ========================= -->
 
