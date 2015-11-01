@@ -1,0 +1,14 @@
+# Generated files
+out/
+
+# IDE files
+nbproject
+.~lock.*
+.buildpath
+.idea
+.project
+.settings
+composer.lock
+
+#files
+*.iml
