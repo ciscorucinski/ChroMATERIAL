@@ -80,7 +80,7 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 [license_img]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license_link]: LICENSE
 
-[dark_img]: https://img.shields.io/badge/Dark_Color_Scheme-In_Progress-brightgreen.svg?style=flat-square
+[dark_img]: https://img.shields.io/badge/Dark_Color_Scheme-In_Progress-green.svg?style=flat-square
 [darcula_img]: https://img.shields.io/badge/Darcula--compatible_Color_Scheme-Future-red.svg?style=flat-square
 [light_img]: https://img.shields.io/badge/Light_Color_Scheme-Future-red.svg?style=flat-square
 
