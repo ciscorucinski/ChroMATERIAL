@@ -1,5 +1,5 @@
 <!-- ========================================================== -->
-[![dark_img]][readme] [![darcula_img]][readme] [![light_img]][readme] &nbsp; ![information]
+[![dark_img]][readme] [![darcula_img]][readme] [![light_img]][readme] &nbsp; [![information]][statuses]
 
 [![plugin_img]][plugin_link] [![license_img]][license_link] [![thanks_img]][thanks_link]
 
@@ -60,7 +60,7 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 [img_range]: https://cloud.githubusercontent.com/assets/8707125/10559946/814af8bc-7536-11e5-8666-102db39305f0.PNG
 [yes]: https://cloud.githubusercontent.com/assets/8707125/10560554/6e30a660-7549-11e5-95ec-a07b0c049339.png
 [no]: https://cloud.githubusercontent.com/assets/8707125/10560555/7263eddc-7549-11e5-8939-bfd2d6141f11.png
-[information]: https://cloud.githubusercontent.com/assets/8707125/12080665/ebdfd2a0-b2a4-11e5-9419-53b5c41874d5.png
+[information]: https://cloud.githubusercontent.com/assets/8707125/12080665/ebdfd2a0-b2a4-11e5-9419-53b5c41874d5.png "View meanings"
 
 <!-- links -->
 [material]: http://www.google.co.kr/design/spec/material-design/introduction.html#
@@ -71,6 +71,7 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 <!-- files -->
 [jar]: install/ChroMATERIAL.jar
 [readme]: README.md
+[statuses]: STATUS.md
 
 <!-- badges -->
 [plugin_img]: https://img.shields.io/badge/JetBrain_Plugin_Repository-7998-blue.svg?style=flat-square
