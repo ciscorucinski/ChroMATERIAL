@@ -1,5 +1,5 @@
 <!-- ========================================================== -->
-[![dark_img]][readme] [![darcula_img]][readme] [![light_img]][readme]
+[![dark_img]][readme] [![darcula_img]][readme] [![light_img]][readme] &nbsp; ![information]
 
 [![plugin_img]][plugin_link] [![license_img]][license_link] [![thanks_img]][thanks_link]
 
@@ -60,6 +60,7 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 [img_range]: https://cloud.githubusercontent.com/assets/8707125/10559946/814af8bc-7536-11e5-8666-102db39305f0.PNG
 [yes]: https://cloud.githubusercontent.com/assets/8707125/10560554/6e30a660-7549-11e5-95ec-a07b0c049339.png
 [no]: https://cloud.githubusercontent.com/assets/8707125/10560555/7263eddc-7549-11e5-8939-bfd2d6141f11.png
+[information]: https://cloud.githubusercontent.com/assets/8707125/12080665/ebdfd2a0-b2a4-11e5-9419-53b5c41874d5.png
 
 <!-- links -->
 [material]: http://www.google.co.kr/design/spec/material-design/introduction.html#
@@ -78,7 +79,7 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 [license_img]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license_link]: LICENSE
 
-[dark_img]: https://img.shields.io/badge/Dark_Color_Scheme-In_Progress-green.svg?style=flat-square
+[dark_img]: https://img.shields.io/badge/Dark_Color_Scheme-In_Progress-brightgreen.svg?style=flat-square
 [darcula_img]: https://img.shields.io/badge/Darcula--compatible_Color_Scheme-Future-red.svg?style=flat-square
 [light_img]: https://img.shields.io/badge/Light_Color_Scheme-Future-red.svg?style=flat-square
 
