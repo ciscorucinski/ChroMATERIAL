@@ -1,7 +1,7 @@
 <idea-plugin version="2">
     <id>com.facebook.rucinskic.chromaterial</id>
     <name>ChroMATERIAL</name>
-    <version>1.0</version>
+    <version>1.1</version>
     <vendor email="chromaterial.plugin@gmail.com" url="">ChroMATERIAL</vendor>
 
     <description><![CDATA[
