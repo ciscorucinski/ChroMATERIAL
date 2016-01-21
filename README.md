@@ -10,8 +10,7 @@ It's uniqueness lies in the idea...
 
 > **Enhance influence, not banality**
 
-| ![chromaterial_color-range_main][img_normal] Standard syntax coloring | ![chromaterial_color-range][img_range] Color syntax range |
-| :-----------: | :--------: |
+![chromaterial_color-range_main][img_normal]
 <sub><sup>**Note** these images contain code from [Google's Android Vision API][android-vision] barcode sample app. </sup></sub>
 
 #Support
@@ -55,25 +54,33 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 
 <!-- ===================== References ========================= -->
 
-<!-- images -->
-[img_normal]: https://cloud.githubusercontent.com/assets/8707125/10559945/814a770c-7536-11e5-99d4-efd4d03ea3f5.PNG
-[img_range]: https://cloud.githubusercontent.com/assets/8707125/10559946/814af8bc-7536-11e5-8666-102db39305f0.PNG
+<!-- * * images * * -->
+
+<!-- Basic -->
 [yes]: https://cloud.githubusercontent.com/assets/8707125/10560554/6e30a660-7549-11e5-95ec-a07b0c049339.png
 [no]: https://cloud.githubusercontent.com/assets/8707125/10560555/7263eddc-7549-11e5-8939-bfd2d6141f11.png
 [information]: https://cloud.githubusercontent.com/assets/8707125/12080665/ebdfd2a0-b2a4-11e5-9419-53b5c41874d5.png "View meanings"
 
-<!-- links -->
+<!-- v1.0 -->
+[v1.0_img_normal]: https://cloud.githubusercontent.com/assets/8707125/10559945/814a770c-7536-11e5-99d4-efd4d03ea3f5.PNG
+[v1.0_img_range]: https://cloud.githubusercontent.com/assets/8707125/10559946/814af8bc-7536-11e5-8666-102db39305f0.PNG
+
+<!-- v1.1 -->
+[img_normal]: https://cloud.githubusercontent.com/assets/8707125/12482832/27668d52-c095-11e5-89e9-01bb67e65aba.PNG
+
+
+<!-- * * links * * -->
 [material]: http://www.google.co.kr/design/spec/material-design/introduction.html#
 [android-vision]: https://github.com/googlesamples/android-vision
 [chris-rm]: https://github.com/ChrisRM
 [chris-rm_theme]: https://github.com/ChrisRM/material-theme-jetbrains
 
-<!-- files -->
+<!-- * * files * * -->
 [jar]: install/ChroMATERIAL.jar
 [readme]: README.md
 [statuses]: STATUS.md
 
-<!-- badges -->
+<!-- * * badges * * -->
 [plugin_img]: https://img.shields.io/badge/JetBrain_Plugin_Repository-7998-blue.svg?style=flat-square
 [plugin_link]: https://plugins.jetbrains.com/plugin/7998
 
