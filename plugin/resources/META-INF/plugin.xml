@@ -1,7 +1,7 @@
 <idea-plugin version="2">
     <id>com.facebook.rucinskic.chromaterial</id>
     <name>ChroMATERIAL</name>
-    <version>1.1</version>
+    <version>1.1.1</version>
     <vendor email="chromaterial.plugin@gmail.com" url="">ChroMATERIAL</vendor>
 
     <description><![CDATA[
@@ -12,7 +12,29 @@
     </description>
 
     <change-notes><![CDATA[
-      Initial Release
+
+      v1.1.1 :: <br><br>
+
+       - v1.1 did not work when deployed. This is a quick-fix. <br><br>
+
+      v1.1 :: <br><br>
+
+       - Added Languages: C / C++<br>
+       - Added Support: Debugger, ProGuard files, Ignore files <br><br>
+
+       - Other Notable changes: <br><br>
+
+         * Simplified the color scheme.<br>
+         * Folded text is a different color.<br>
+         * Numbers and Strings are the same color.<br>
+         * Annotation colors are similar in style to comments. <br><br>
+
+      v1.0 :: Initial Release: <br><br>
+
+       - Added Color Scheme: Default (dark)<br>
+       - Added Languages: Java (Android), Groovy, XML, JSON, HTML<br>
+       - Added Support: Android Manifest, Android Resources, Gradle files, LogCat, Property files, and diffs <br>
+
     ]]>
     </change-notes>
 
