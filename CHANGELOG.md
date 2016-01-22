@@ -2,6 +2,8 @@
 
 # ChroMATERIAL v1.1
 
+ChroMATERIAL v1.1.1 is this update. ChroMATERIAL v1.1 was deployed wrong.
+
 ##### Added
 
 | Type            | Supported |
