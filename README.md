@@ -1,7 +1,7 @@
 <!-- ========================================================== -->
 [![dark_img]][readme] [![darcula_img]][readme] [![light_img]][readme] &nbsp; [![information]][statuses]
 
-[![plugin_img]][plugin_link] [![license_img]][license_link] [![thanks_img]][thanks_link]
+[![android_arsenal_img]][android_arsenal_link] [![plugin_img]][plugin_link] [![license_img]][license_link] [![thanks_img]][thanks_link]
 
 # ChroMATERIAL
 ChroMATERIAL is a color scheme that expresses the chromatic nature of [Material Design][material] within JetBrain IDEs and Android Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor. 
@@ -81,8 +81,11 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 [statuses]: STATUS.md
 
 <!-- * * badges * * -->
-[plugin_img]: https://img.shields.io/badge/JetBrain_Plugin_Repository-7998-blue.svg?style=flat-square
+[plugin_img]: https://img.shields.io/badge/JetBrain_Plugin_Repository-ChroMATERIAL-green.svg?style=flat-square
 [plugin_link]: https://plugins.jetbrains.com/plugin/7998
+
+[android_arsenal_img]: https://img.shields.io/badge/Android%20Arsenal-ChroMATERIAL-green.svg?style=flat-square
+[android_arsenal_link]: https://android-arsenal.com/details/1/3936
 
 [license_img]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license_link]: LICENSE
@@ -91,5 +94,5 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 [darcula_img]: https://img.shields.io/badge/Darcula--compatible_Color_Scheme-Future-red.svg?style=flat-square
 [light_img]: https://img.shields.io/badge/Light_Color_Scheme-Future-red.svg?style=flat-square
 
-[thanks_img]: https://img.shields.io/badge/Special_Thanks-2-brightgreen.svg?style=flat-square
+[thanks_img]: https://img.shields.io/badge/Special_Thanks-2-blue.svg?style=flat-square
 [thanks_link]: THANKS.md
