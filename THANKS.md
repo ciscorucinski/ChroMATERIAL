@@ -1,6 +1,6 @@
 [![google_img]][google_link] [![chris-rm_img]][chris-rm_link]
 
-#Special Thanks
+# Special Thanks
 
  - Google for [Material Design][material] and the attention to color
  
