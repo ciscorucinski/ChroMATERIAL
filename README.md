@@ -13,7 +13,7 @@ It's uniqueness lies in the idea...
 ![chromaterial_color-range_main][img_normal]
 <sub><sup>**Note** these images contain code from [Google's Android Vision API][android-vision] barcode sample app. </sup></sub>
 
-#Support
+# Support
 
 | Type          | Supported |
 | :-----------: | :-------- |
@@ -24,7 +24,7 @@ It's uniqueness lies in the idea...
 | **Others**    | <kbd>Android Manifest</kbd> <kbd>Android Resources</kbd> <kbd>Gradle</kbd> <kbd>Logcat</kbd> <kbd>Proguard Files</kbd> <kbd>Property Files</kbd> <kbd>Debugger</kbd> <kbd>Diff</kbd> <kbd>Ignore Files</kbd> <br><sub><sup>**Pull Requests** are welcome.</sup></sub> |
 
 <!-- ========================================================== -->
-#Installation
+# Installation
 
 **Find Plugin**
  1. Open IDE and locate <kbd>File >> Settings >> Plugins</kbd> and click <kbd>Browse Repositories...</kbd>
@@ -47,7 +47,7 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
  5. Locate <kbd>File >> Settings >> Editor >> Colors & Fonts >> Scheme</kbd> 
  6. Choose <kbd>ChroMATERIAL</kbd> and click <kbd>Apply</kbd> / <kbd>OK</kbd>.
 
-###Optional
+### Optional
 
  - Modify the **font type** to your preference
  - Modify the **syntax highlighting** further to fit your particular tastes.
