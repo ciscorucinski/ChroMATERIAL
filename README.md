@@ -31,7 +31,7 @@ It's uniqueness lies in the idea...
  3. Search for and click <kbd>ChroMATERIAL</kbd> and click <kbd>Install plugin</kbd>
 
 <!--
-####Manual
+#### Manual
 Install ChroMATERIAL. This does NOT provide automatic updates.
 
 **Retrieve from the Internet**
