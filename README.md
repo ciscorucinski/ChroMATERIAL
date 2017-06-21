@@ -1,8 +1,7 @@
 <!-- ========================================================== -->
-[![default_img]][readme] <br>
-[![darcula_img]][readme] [![dark_img]][readme] <br>
-[![light_img]][readme] 
-&nbsp; [![information]][statuses]
+[![default_img]][statuses] <br>
+[![darcula_img]][statuses] [![dark_img]][statuses] <br>
+[![light_img]][statuses] 
 
 [![android_arsenal_img]][android_arsenal_link] [![plugin_img]][plugin_link] [![license_img]][license_link] [![thanks_img]][thanks_link]
 
@@ -41,7 +40,7 @@ It's uniqueness lies in the idea...
 ### Optional
 
 <details>
-<summary>Modify ...</summary>
+<summary>Modify <sub><sup>( Click to expand )</sup></sub>...</summary>
 
  - **font type** to your preference
  - **syntax highlighting** further to fit your particular tastes.
