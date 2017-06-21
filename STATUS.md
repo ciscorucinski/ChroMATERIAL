@@ -1,8 +1,6 @@
 # Status Overview
 
-On the top of the [readme], there are a few status updates for several of the color schemes. Here is a list of what each status means.
-
-Now you can fully understand what is going on with the project!
+Here is a list of what each status means. You will find these statuses on the [readme].
 
 | Status              | Meaning |
 | :------------------:| :------ |
