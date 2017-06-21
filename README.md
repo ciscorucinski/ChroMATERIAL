@@ -34,13 +34,21 @@ It's uniqueness lies in the idea...
  2. Search for and click <kbd>ChroMATERIAL</kbd> and click <kbd>Install plugin</kbd>
 
 **Use Color Scheme** 
+
  3. Locate <kbd>File >> Settings >> Editor >> Colors & Fonts >> Scheme</kbd> 
  4. Choose <kbd>ChroMATERIAL</kbd> and click <kbd>Apply</kbd> / <kbd>OK</kbd>.
 
 ### Optional
 
- - Modify the **font type** to your preference
- - Modify the **syntax highlighting** further to fit your particular tastes.
+<details>
+<summary>Modify ...</summary>
+
+ - **font type** to your preference
+ - **syntax highlighting** further to fit your particular tastes.
+
+</details>
+
+ 
 
 <!-- ===================== References ========================= -->
 
