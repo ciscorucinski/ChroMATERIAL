@@ -1,5 +1,8 @@
 <!-- ========================================================== -->
-[![dark_img]][readme] [![darcula_img]][readme] [![light_img]][readme] &nbsp; [![information]][statuses]
+[![default_img]][readme] <br>
+[![darcula_img]][readme] [![dark_img]][readme] <br>
+[![light_img]][readme] 
+&nbsp; [![information]][statuses]
 
 [![android_arsenal_img]][android_arsenal_link] [![plugin_img]][plugin_link] [![license_img]][license_link] [![thanks_img]][thanks_link]
 
@@ -28,24 +31,11 @@ It's uniqueness lies in the idea...
 
 **Find Plugin**
  1. Open IDE and locate <kbd>File >> Settings >> Plugins</kbd> and click <kbd>Browse Repositories...</kbd>
- 3. Search for and click <kbd>ChroMATERIAL</kbd> and click <kbd>Install plugin</kbd>
-
-<!--
-#### Manual
-Install ChroMATERIAL. This does NOT provide automatic updates.
-
-**Retrieve from the Internet**
- 1. Download <kbd>[ChroMATERIAL][jar] Jar file</kbd>.
-
-**Install Color Scheme**
- 2. Open IDE and locate <kbd>File >> Import Settings...</kbd>.
- 3. Locate the <kbd>ChroMATERIAL Jar file</kbd> in the list, click <kbd>OK</kbd> 
- 4. Check <kbd>Editor Colors</kbd> and click <kbd>OK</kbd>.
--->
+ 2. Search for and click <kbd>ChroMATERIAL</kbd> and click <kbd>Install plugin</kbd>
 
 **Use Color Scheme** 
- 5. Locate <kbd>File >> Settings >> Editor >> Colors & Fonts >> Scheme</kbd> 
- 6. Choose <kbd>ChroMATERIAL</kbd> and click <kbd>Apply</kbd> / <kbd>OK</kbd>.
+ 3. Locate <kbd>File >> Settings >> Editor >> Colors & Fonts >> Scheme</kbd> 
+ 4. Choose <kbd>ChroMATERIAL</kbd> and click <kbd>Apply</kbd> / <kbd>OK</kbd>.
 
 ### Optional
 
@@ -90,8 +80,9 @@ Install ChroMATERIAL. This does NOT provide automatic updates.
 [license_img]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license_link]: LICENSE
 
-[dark_img]: https://img.shields.io/badge/Dark_Color_Scheme-In_Progress-green.svg?style=flat-square
-[darcula_img]: https://img.shields.io/badge/Darcula--compatible_Color_Scheme-Future-red.svg?style=flat-square
+[default_img]: https://img.shields.io/badge/Default_Color_Scheme-In_Progress-green.svg?style=flat-square
+[darcula_img]: https://img.shields.io/badge/Darcula--compatible_Color_Scheme-Started-yellowgreen.svg?style=flat-square
+[dark_img]: https://img.shields.io/badge/Black_Color_Scheme-Started-yellowgreen.svg?style=flat-square
 [light_img]: https://img.shields.io/badge/Light_Color_Scheme-Future-red.svg?style=flat-square
 
 [thanks_img]: https://img.shields.io/badge/Special_Thanks-2-blue.svg?style=flat-square
