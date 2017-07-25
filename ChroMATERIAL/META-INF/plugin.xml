@@ -1,17 +1,23 @@
 <idea-plugin>
-    <id>com.facebook.rucinskic.chromaterial</id>
-    <name>ChroMATERIAL</name>
-    <version>1.2</version>
-    <vendor email="chromaterial.plugin@gmail.com" url="">ChroMATERIAL</vendor>
+  <id>com.facebook.rucinskic.chromaterial</id>
+  <name>ChroMATERIAL</name>
+  <version>1.2</version>
+  <vendor email="chromaterial.plugin@gmail.com" url="">ChroMATERIAL</vendor>
 
-    <description><![CDATA[
+  <description><![CDATA[
       ChroMATERIAL is a color scheme that expresses the chromatic nature of Material Design within IntelliJ and Android
       Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor. It's
-      uniqueness lies in the idea of enhance influence, not banality.
-    ]]>
-    </description>
+      uniqueness lies in the idea of enhance influence, not banality. <br><br>
 
-    <change-notes><![CDATA[
+       - Color Schemes: Default (dark), Darcula-compatible, Darker<br><br>
+
+       - Supported Languages: Java (Android), Kotlin, Groovy, C / C++, XML, JSON, HTML, Markdown<br>
+       - Supported Features: Android Manifest, Android Resources, Gradle files, Debugger, LogCat, Property files, diffs, ProGuard files, Ignore files <br>
+
+    ]]>
+  </description>
+
+  <change-notes><![CDATA[
 
        v1.2 :: <br><br>
 
@@ -27,6 +33,7 @@
          * Updated all warnings and errors to use italics.
          * Unused identifiers are enhanced to prevent further issues.
          * Enhanced Java instance field colors.
+         * Android Logcat's Assert are now purple.
          * Tear line (plus collapse / expand buttons) are now green.
          * Fixed regression with not highlighting all instances of the current identifier under the carat.
 
@@ -53,32 +60,32 @@
        - Added Support: Android Manifest, Android Resources, Gradle files, LogCat, Property files, and diffs <br>
 
     ]]>
-    </change-notes>
+  </change-notes>
 
-    <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
-    <idea-version since-build="131"/>
+  <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+  <idea-version since-build="131"/>
 
-    <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
-         on how to target different products -->
+  <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+       on how to target different products -->
 
-    <depends>com.intellij.modules.lang</depends>
+  <depends>com.intellij.modules.lang</depends>
 
-    <extensions defaultExtensionNs="com.intellij">
-        <bundledColorScheme path="colors/ChroMATERIAL" />
-        <bundledColorScheme path="colors/ChroMATERIAL -- Darker" />
-        <bundledColorScheme path="colors/ChroMATERIAL -- Darcula" />
-    </extensions>
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledColorScheme path="colors/ChroMATERIAL"/>
+    <bundledColorScheme path="colors/ChroMATERIAL -- Darker"/>
+    <bundledColorScheme path="colors/ChroMATERIAL -- Darcula"/>
+  </extensions>
 
-    <application-components>
-        <!-- Add your application components here -->
-    </application-components>
+  <application-components>
+    <!-- Add your application components here -->
+  </application-components>
 
-    <project-components>
-        <!-- Add your project components here -->
-    </project-components>
+  <project-components>
+    <!-- Add your project components here -->
+  </project-components>
 
-    <actions>
-        <!-- Add your actions here -->
-    </actions>
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
 
 </idea-plugin>
