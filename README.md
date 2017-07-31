@@ -31,7 +31,7 @@ It's uniqueness lies in the idea...
 |||
 | **Languages** | <kbd>Java</kbd> <kbd>Android</kbd> <kbd>Groovy</kbd> <kbd>XML</kbd> <kbd>JSON</kbd> <kbd>HTML</kbd> <kbd>C / C++</kbd> <br><sub><sup>**Pull Requests** are welcome.</sup></sub> |
 |||
-| **Others**    | <kbd>Android Manifest</kbd> <kbd>Android Resources</kbd> <kbd>Gradle</kbd> <kbd>Logcat</kbd> <kbd>Proguard Files</kbd> <kbd>Property Files</kbd> <kbd>Debugger</kbd> <kbd>Diff</kbd> <kbd>Ignore Files *</kbd> <br><sub><sup>**Pull Requests** are welcome.</sup></sub> |
+| **Others**    | <kbd>Android Manifest</kbd> <kbd>Android Resources</kbd> <kbd>Gradle</kbd> <kbd>Logcat</kbd> <kbd>Proguard Files</kbd> <kbd>Property Files</kbd> <kbd>Version Control</kbd> <kbd>Debugger</kbd> <kbd>Diff</kbd> <kbd>Ignore Files *</kbd> <kbd>RegExp</kbd> <kbd>YAML</kbd> <kbd>XSLT</kbd> <kbd>XPATH</kbd> <br><sub><sup>**Pull Requests** are welcome.</sup></sub> |
 
 *<sub><sup>&nbsp; - via Plugin</sup></sub>
 
