@@ -50,7 +50,7 @@ It's uniqueness lies in the idea...
 ### Optional
 
 <details>
-<summary>Modify ...</summary>
+<summary>You can modify any of the following in the code editor...</summary>
 
  - **font type** to your preference
  - **syntax highlighting** further to fit your particular tastes.
@@ -73,7 +73,7 @@ It's uniqueness lies in the idea...
 [latest_img_normal]: https://cloud.githubusercontent.com/assets/8707125/12482832/27668d52-c095-11e5-89e9-01bb67e65aba.PNG
 
 <!-- v1.2 -->
-[v1.2_img_normal]: <!-- Insert picture for v1.2 + update above link-->
+[v1.2_img_normal]: #
 
 <!-- v1.1 -->
 [v1.1_img_normal]: https://cloud.githubusercontent.com/assets/8707125/12482832/27668d52-c095-11e5-89e9-01bb67e65aba.PNG
