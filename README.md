@@ -1,10 +1,17 @@
-<!-- ========================================================== -->
-[![default_img]][readme] <br>
-[![darcula_img]][readme] [![dark_img]][readme] <br>
-[![light_img]][readme] 
-&nbsp; [![information]][statuses]
+<!-- ===================== Badges ========================= -->
 
-[![android_arsenal_img]][android_arsenal_link] [![plugin_img]][plugin_link] [![license_img]][license_link] [![thanks_img]][thanks_link]
+[![default_img]][readme]
+[![darcula_img]][readme] 
+[![darker_img]][readme] <br>
+[![lighter_img]][readme] &nbsp; 
+[![information]][statuses]
+
+[![plugin_img]][plugin_link] 
+[![android_arsenal_img]][android_arsenal_link] 
+[![license_img]][license_link] 
+[![thanks_img]][thanks_link]
+
+<!-- ===================== Content ========================= -->
 
 # ChroMATERIAL
 ChroMATERIAL is a color scheme that expresses the chromatic nature of [Material Design][material] within JetBrain IDEs and Android Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor. 
@@ -13,7 +20,7 @@ It's uniqueness lies in the idea...
 
 > **Enhance influence, not banality**
 
-![chromaterial_color-range_main][img_normal]
+![chromaterial_color-range_main][latest_img_normal]
 <sub><sup>**Note** these images contain code from [Google's Android Vision API][android-vision] barcode sample app. </sup></sub>
 
 # Support
@@ -24,7 +31,9 @@ It's uniqueness lies in the idea...
 |||
 | **Languages** | <kbd>Java</kbd> <kbd>Android</kbd> <kbd>Groovy</kbd> <kbd>XML</kbd> <kbd>JSON</kbd> <kbd>HTML</kbd> <kbd>C / C++</kbd> <br><sub><sup>**Pull Requests** are welcome.</sup></sub> |
 |||
-| **Others**    | <kbd>Android Manifest</kbd> <kbd>Android Resources</kbd> <kbd>Gradle</kbd> <kbd>Logcat</kbd> <kbd>Proguard Files</kbd> <kbd>Property Files</kbd> <kbd>Debugger</kbd> <kbd>Diff</kbd> <kbd>Ignore Files</kbd> <br><sub><sup>**Pull Requests** are welcome.</sup></sub> |
+| **Others**    | <kbd>Android Manifest</kbd> <kbd>Android Resources</kbd> <kbd>Gradle</kbd> <kbd>Logcat</kbd> <kbd>Proguard Files</kbd> <kbd>Property Files</kbd> <kbd>Debugger</kbd> <kbd>Diff</kbd> <kbd>Ignore Files *</kbd> <br><sub><sup>**Pull Requests** are welcome.</sup></sub> |
+
+*<sub><sup>&nbsp; - via Plugin</sup></sub>
 
 <!-- ========================================================== -->
 # Installation
@@ -57,15 +66,21 @@ It's uniqueness lies in the idea...
 <!-- Basic -->
 [yes]: https://cloud.githubusercontent.com/assets/8707125/10560554/6e30a660-7549-11e5-95ec-a07b0c049339.png
 [no]: https://cloud.githubusercontent.com/assets/8707125/10560555/7263eddc-7549-11e5-8939-bfd2d6141f11.png
-[information]: https://cloud.githubusercontent.com/assets/8707125/12080665/ebdfd2a0-b2a4-11e5-9419-53b5c41874d5.png "View meanings"
+[information]: https://cloud.githubusercontent.com/assets/8707125/12080665/ebdfd2a0-b2a4-11e5-9419-53b5c41874d5.png 
+               "View meanings"
+
+<!-- Latest Version -->
+[latest_img_normal]: https://cloud.githubusercontent.com/assets/8707125/12482832/27668d52-c095-11e5-89e9-01bb67e65aba.PNG
+
+<!-- v1.2 -->
+[v1.2_img_normal]: <!-- Insert picture for v1.2 + update above link-->
+
+<!-- v1.1 -->
+[v1.1_img_normal]: https://cloud.githubusercontent.com/assets/8707125/12482832/27668d52-c095-11e5-89e9-01bb67e65aba.PNG
 
 <!-- v1.0 -->
 [v1.0_img_normal]: https://cloud.githubusercontent.com/assets/8707125/10559945/814a770c-7536-11e5-99d4-efd4d03ea3f5.PNG
 [v1.0_img_range]: https://cloud.githubusercontent.com/assets/8707125/10559946/814af8bc-7536-11e5-8666-102db39305f0.PNG
-
-<!-- v1.1 -->
-[img_normal]: https://cloud.githubusercontent.com/assets/8707125/12482832/27668d52-c095-11e5-89e9-01bb67e65aba.PNG
-
 
 <!-- * * links * * -->
 [material]: http://www.google.co.kr/design/spec/material-design/introduction.html#
@@ -74,24 +89,24 @@ It's uniqueness lies in the idea...
 [chris-rm_theme]: https://github.com/ChrisRM/material-theme-jetbrains
 
 <!-- * * files * * -->
-[jar]: install/ChroMATERIAL.jar
+[jar]: ChroMATERIAL/ChroMATERIAL.jar
 [readme]: README.md
 [statuses]: STATUS.md
 
 <!-- * * badges * * -->
-[plugin_img]: https://img.shields.io/badge/JetBrain_Plugin_Repository-ChroMATERIAL-green.svg?style=flat-square
+[plugin_img]: https://img.shields.io/badge/JetBrain_Plugin_Repository-7998-green.svg?style=flat-square
 [plugin_link]: https://plugins.jetbrains.com/plugin/7998
 
-[android_arsenal_img]: https://img.shields.io/badge/Android%20Arsenal-ChroMATERIAL-green.svg?style=flat-square
+[android_arsenal_img]: https://img.shields.io/badge/Android%20Arsenal-3936-green.svg?style=flat-square
 [android_arsenal_link]: https://android-arsenal.com/details/1/3936
 
 [license_img]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license_link]: LICENSE
 
 [default_img]: https://img.shields.io/badge/Default_Color_Scheme-In_Progress-green.svg?style=flat-square
-[darcula_img]: https://img.shields.io/badge/Darcula--compatible_Color_Scheme-Started-yellowgreen.svg?style=flat-square
-[dark_img]: https://img.shields.io/badge/Black_Color_Scheme-Started-yellowgreen.svg?style=flat-square
-[light_img]: https://img.shields.io/badge/Light_Color_Scheme-Future-red.svg?style=flat-square
+[darcula_img]: https://img.shields.io/badge/Darcula--compatible_Color_Scheme-In_Progress-green.svg?style=flat-square
+[darker_img]: https://img.shields.io/badge/Darker_Color_Scheme-In_Progress-green.svg?style=flat-square
+[lighter_img]: https://img.shields.io/badge/Lighter_Color_Scheme-Future-red.svg?style=flat-square
 
-[thanks_img]: https://img.shields.io/badge/Special_Thanks-2-blue.svg?style=flat-square
+[thanks_img]: https://img.shields.io/badge/Special_Thanks-3-blue.svg?style=flat-square
 [thanks_link]: THANKS.md
