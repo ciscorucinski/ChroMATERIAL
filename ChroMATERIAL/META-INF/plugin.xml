@@ -2,17 +2,21 @@
   <id>com.facebook.rucinskic.chromaterial</id>
   <name>ChroMATERIAL</name>
   <version>1.2</version>
-  <vendor email="chromaterial.plugin@gmail.com" url="">ChroMATERIAL</vendor>
+  <vendor email="chromaterial.plugin@gmail.com" url="https://github.com/ciscorucinski/ChroMATERIAL">Christopher
+    Rucinski
+  </vendor>
 
   <description><![CDATA[
       ChroMATERIAL is a color scheme that expresses the chromatic nature of Material Design within IntelliJ and Android
       Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor. It's
-      uniqueness lies in the idea of enhance influence, not banality. <br><br>
+      uniqueness lies in the idea of "enhance influence, not banality". <br><br>
 
        - Color Schemes: Default (dark), Darcula-compatible, Darker<br><br>
 
-       - Supported Languages: Java (Android), Kotlin, Groovy, C / C++, XML, JSON, HTML, Markdown<br>
-       - Supported Features: Android Manifest, Android Resources, Gradle files, Debugger, LogCat, Property files, diffs, ProGuard files, Ignore files <br>
+       - Supported Languages: Java (Android), Kotlin, Groovy, C / C++, XML, JSON, HTML<br>
+       - Supported Features: Android Manifest, Android Resources, Gradle files, Debugger, LogCat, Property files, diffs, ProGuard files, Ignore Files*, Markdown* <br>
+
+      * - via Plugin
 
     ]]>
   </description>
