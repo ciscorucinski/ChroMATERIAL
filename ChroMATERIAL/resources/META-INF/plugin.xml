@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.facebook.rucinskic.chromaterial</id>
   <name>ChroMATERIAL</name>
-  <version>1.2</version>
+  <version>2.0</version>
   <vendor email="chromaterial.plugin@gmail.com" url="https://github.com/ciscorucinski/ChroMATERIAL">
     ChristopherRucinski
   </vendor>
@@ -15,8 +15,8 @@
 
        - Color Schemes: Default (dark), Darcula-compatible, Darker<br><br>
 
-       - Supported Languages: Java (Android), Kotlin, Groovy, C / C++, XML, JSON, HTML<br>
-       - Supported Features: Android Manifest, Android Resources, Gradle files, Debugger, LogCat, Property files, diffs, ProGuard files, Ignore Files*, Markdown* <br><br>
+       - Supported Languages: Java, Kotlin, Groovy, XML, JSON, HTML, Regex, YAML<br>
+       - Supported Features: Android, Android Manifest, Android Resources, Android Native (C / C++), Gradle, Logcat, Proguard Files, Property Files, Version Control, Debugger, Diff, XSLT, XPATH, Ignore Files*, Markdown* <br><br>
 
       * - via Plugin
 
@@ -26,7 +26,7 @@
   <change-notes>
     <![CDATA[
 
-       v1.2 :: <br><br>
+       v2.0 :: <br><br>
 
        - Added Themes: Darker, Darcula-compatible
        - Added Languages: Kotlin, Markdown
@@ -51,7 +51,7 @@
 
       v1.1 :: <br><br>
 
-       - Added Languages: C / C++<br>
+       - Added Languages: Android Native (C / C++)<br>
        - Added Support: Debugger, ProGuard files, Ignore files <br><br>
 
        - Other Notable changes: <br><br>
@@ -64,8 +64,8 @@
       v1.0 :: Initial Release: <br><br>
 
        - Added Color Scheme: Default (dark)<br>
-       - Added Languages: Java (Android), Groovy, XML, JSON, HTML<br>
-       - Added Support: Android Manifest, Android Resources, Gradle files, LogCat, Property files, and diffs <br>
+       - Added Languages: Java, Groovy, XML, JSON, HTML<br>
+       - Added Support: Android, Android Manifest, Android Resources, Gradle files, LogCat, Property files, and diffs <br>
 
     ]]>
   </change-notes>
