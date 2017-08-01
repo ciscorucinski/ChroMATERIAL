@@ -27,13 +27,11 @@ It's uniqueness lies in the idea...
 
 | Type          | Supported |
 | :-----------: | :-------- |
-| **IDEs**      | <kbd>Android Studio</kbd> <kbd>IntelliJ IDEA</kbd> <kbd> RubyMine</kbd> <kbd>WebStorm</kbd> <kbd>PhpStorm</kbd> <kbd>PyCharm</kbd> <kbd>AppCode</kbd> <kbd>CLion</kbd> <kbd>DataGrip</kbd> <br><sub><sup>ChroMATERIAL supports **Text Editor** changes only. <br>ChroMATERIAL + [Material Theme][chris-rm_theme] will modify the whole IDE!</sup></sub> |
+| **IDEs**      | <kbd>Android Studio</kbd> <kbd>IntelliJ IDEA</kbd> <kbd>PyCharm</kbd> <kbd> RubyMine</kbd> <kbd>WebStorm</kbd> <kbd>PhpStorm</kbd> <kbd>AppCode</kbd> <kbd>CLion</kbd> <kbd>DataGrip</kbd> <!-- NOTES --> <br><sub><sup>ChroMATERIAL supports **Text Editor** changes only. <br>ChroMATERIAL + [Material Theme][chris-rm_theme] will modify the whole IDE!</sup></sub> |
 |||
-| **Languages** | <kbd>Java</kbd> <kbd>Android</kbd> <kbd>Kotlin</kbd> <kbd>Groovy</kbd> <kbd>XML</kbd> <kbd>JSON</kbd> <kbd>HTML</kbd> <kbd>C / C++</kbd> <br><sub><sup>**Pull Requests** are welcome.</sup></sub> |
+| **Languages** | <kbd>Java</kbd> <kbd>Android</kbd> <kbd>Kotlin</kbd> <kbd>Groovy</kbd> <kbd>XML</kbd> <kbd>JSON</kbd> <kbd>HTML</kbd> <kbd>C / C++</kbd> <!-- PLUGINS --><!-- <br><br> Support via Plugins <br> <kbd> ... </kbd> --> <!-- NOTES --> <br><sub><sup>**Pull Requests** are welcome.</sup></sub> |
 |||
-| **Others**    | <kbd>Android Manifest</kbd> <kbd>Android Resources</kbd> <kbd>Gradle</kbd> <kbd>Logcat</kbd> <kbd>Proguard Files</kbd> <kbd>Property Files</kbd> <kbd>Version Control</kbd> <kbd>Debugger</kbd> <kbd>Diff</kbd> <kbd>Ignore Files *</kbd> <kbd>Markdown *</kbd> <kbd>RegExp</kbd> <kbd>YAML</kbd> <kbd>XSLT</kbd> <kbd>XPATH</kbd> <br><sub><sup>**Pull Requests** are welcome.</sup></sub> |
-
-*<sub><sup>&nbsp; - via Plugin</sup></sub>
+| **Others**    | <kbd>Android Manifest</kbd> <kbd>Android Resources</kbd> <kbd>Gradle</kbd> <kbd>Logcat</kbd> <kbd>Proguard Files</kbd> <kbd>Property Files</kbd> <kbd>Version Control</kbd> <kbd>Debugger</kbd> <kbd>Diff</kbd> <kbd>RegExp</kbd> <kbd>YAML</kbd> <kbd>XSLT</kbd> <kbd>XPATH</kbd> <!-- PLUGINS --><br><br> Support via Plugins <br> <kbd>Ignore Files</kbd> <kbd>Markdown</kbd> <!-- NOTES --> <br><sub><sup>**Pull Requests** are welcome.</sup></sub> |
 
 <!-- ========================================================== -->
 # Installation
