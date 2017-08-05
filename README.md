@@ -1,5 +1,3 @@
-<!-- ===================== Badges ========================= -->
-
 [![default_img]][readme]
 [![darcula_img]][readme] 
 [![darker_img]][readme] <br>
