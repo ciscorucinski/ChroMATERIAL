@@ -12,3 +12,6 @@ composer.lock
 
 #files
 *.iml
+
+installed.txt
+IntelliJ IDEA Global Settings

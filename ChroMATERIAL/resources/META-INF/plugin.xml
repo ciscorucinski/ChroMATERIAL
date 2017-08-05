@@ -1,0 +1,99 @@
+<idea-plugin>
+  <id>com.facebook.rucinskic.chromaterial</id>
+  <name>ChroMATERIAL</name>
+  <version>2.0</version>
+  <vendor email="chromaterial.plugin@gmail.com" url="https://github.com/ciscorucinski/ChroMATERIAL">
+    ChristopherRucinski
+  </vendor>
+
+  <description>
+    <![CDATA[
+
+      ChroMATERIAL is a color scheme that expresses the chromatic nature of Material Design within IntelliJ and Android
+      Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor. It's
+      uniqueness lies in the idea of "enhance influence, not banality". <br><br>
+
+       - Color Schemes: Default (dark), Darcula-compatible, Darker<br><br>
+
+       - Supported Languages: Java, Kotlin, Groovy, XML, JSON, HTML, Regex, YAML<br>
+       - Supported Features: Android, Android Manifest, Android Resources, Android Native (C / C++), Gradle, Logcat, Proguard Files, Property Files, Version Control, Debugger, Diff, XSLT, XPATH, Ignore Files*, Markdown* <br><br>
+
+      * - via Plugin
+
+    ]]>
+  </description>
+
+  <change-notes>
+    <![CDATA[
+
+       v2.0 :: <br><br>
+
+       - Added Themes: Darker, Darcula-compatible<br>
+       - Added Languages: Kotlin, Markdown<br><br>
+
+       - Other Notable changes: <br><br>
+
+         * Standardized colors across all languages.<br>
+         * Added Breadcrumb color support to the editor.<br>
+         * Enhanced Injected language color support.<br>
+         * Added Read-only color support.<br>
+         * Modified HTML Tree Tag level colors.<br>
+         * Updated all warnings and errors to use italics.<br>
+         * Unused identifiers are enhanced to prevent further issues.<br>
+         * Enhanced Java instance field colors.<br>
+         * Android Logcat's Assert are now purple.<br>
+         * Tear line (plus collapse / expand buttons) are now green.<br>
+         * Fixed regression with not highlighting all instances of the current identifier under the carat.<br><br>
+
+      v1.1.1 :: <br><br>
+
+       - v1.1 did not work when deployed. This is a quick-fix. <br><br>
+
+      v1.1 :: <br><br>
+
+       - Added Languages: Android Native (C / C++)<br>
+       - Added Support: Debugger, ProGuard files, Ignore files <br><br>
+
+       - Other Notable changes: <br><br>
+
+         * Simplified the color scheme.<br>
+         * Folded text is a different color.<br>
+         * Numbers and Strings are the same color.<br>
+         * Annotation colors are similar in style to comments. <br><br>
+
+      v1.0 :: Initial Release: <br><br>
+
+       - Added Color Scheme: Default (dark)<br>
+       - Added Languages: Java, Groovy, XML, JSON, HTML<br>
+       - Added Support: Android, Android Manifest, Android Resources, Gradle files, LogCat, Property files, and diffs <br>
+
+    ]]>
+  </change-notes>
+
+  <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
+  <idea-version since-build="131"/>
+
+  <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
+       on how to target different products -->
+
+  <depends>com.intellij.modules.lang</depends>
+
+  <extensions defaultExtensionNs="com.intellij">
+    <bundledColorScheme path="colors/ChroMATERIAL"/>
+    <bundledColorScheme path="colors/ChroMATERIAL -- Darker"/>
+    <bundledColorScheme path="colors/ChroMATERIAL -- Darcula"/>
+  </extensions>
+
+  <application-components>
+    <!-- Add your application components here -->
+  </application-components>
+
+  <project-components>
+    <!-- Add your project components here -->
+  </project-components>
+
+  <actions>
+    <!-- Add your actions here -->
+  </actions>
+
+</idea-plugin>
