@@ -10,8 +10,9 @@ nbproject
 .settings
 composer.lock
 
-#files
+# files
 *.iml
 
+# Extracting Plugin JAR file
 installed.txt
 IntelliJ IDEA Global Settings
