@@ -26,6 +26,15 @@
   <change-notes>
     <![CDATA[
 
+       v2.0.1 :: <br><br>
+
+       - Updated Languages: Groovy<br><br>
+
+       - Notable changes: <br><br>
+
+         * Fixed regression with Gradle DSL not displayed as green. (Closes #31)<br>
+         * Fixed regression with Groovy Unknown Symbol not having a gray boxed effect. (Closes #32)<br><br>
+
        v2.0 :: <br><br>
 
        - Added Themes: Darker, Darcula-compatible<br>
