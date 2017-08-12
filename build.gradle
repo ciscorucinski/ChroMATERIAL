@@ -5,18 +5,18 @@ buildscript {
 }
 
 plugins {
-    id "org.jetbrains.intellij" version "0.1.10"
+    id "org.jetbrains.intellij" version "0.2.16"
 }
 
-apply plugin: 'idea'
 apply plugin: 'org.jetbrains.intellij'
-apply plugin: 'java'
+apply plugin: 'idea'
 
 intellij {
-    version 'IC-2016.3' //IntelliJ IDEA 2016.3 dependency; for a full list of IntelliJ IDEA releases please see https://www.jetbrains.com/intellij-repository/releases
-    plugins 'coverage' //Bundled plugin dependencies
-    pluginName 'plugin_name_goes_here'
+    version 'IC-2017.2' //IntelliJ IDEA 2016.3 dependency; for a full list of IntelliJ IDEA releases please see https://www.jetbrains.com/intellij-repository/releases
+    pluginName 'ChroMATERIAL'
+    type 'IC'
+    updateSinceUntilBuild false
 }
 
-group 'org.jetbrains'
-version '1.2' // Plugin version
+group 'io.github.ciscorucinski.chromaterial'
+version '2.0' // Plugin version
