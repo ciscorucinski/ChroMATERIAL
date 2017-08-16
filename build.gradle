@@ -1,14 +1,7 @@
-buildscript {
-    repositories {
-        mavenCentral()
-    }
-}
-
 plugins {
     id "org.jetbrains.intellij" version "0.2.16"
 }
 
-apply plugin: 'org.jetbrains.intellij'
 apply plugin: 'idea'
 
 intellij {
