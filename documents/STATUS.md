@@ -22,4 +22,4 @@ Here is a list of what each status means. You will find these statuses on the [r
 [future_img]: https://img.shields.io/badge/Future-%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20%20-red.svg?style=flat-square
 
 <!-- files -->
-[readme]: README.md
+[readme]: ../README.md

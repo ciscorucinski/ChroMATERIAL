@@ -87,7 +87,7 @@ It's uniqueness lies in the idea...
 <!-- * * files * * -->
 [jar]: ChroMATERIAL/ChroMATERIAL.jar
 [readme]: README.md
-[statuses]: STATUS.md
+[statuses]: documents/STATUS.md
 
 <!-- * * badges * * -->
 [plugin_img]: https://img.shields.io/badge/JetBrain_Plugin_Repository-7998-green.svg?style=flat-square
@@ -105,4 +105,4 @@ It's uniqueness lies in the idea...
 [lighter_img]: https://img.shields.io/badge/Lighter_Color_Scheme-Future-red.svg?style=flat-square
 
 [thanks_img]: https://img.shields.io/badge/Special_Thanks-3-blue.svg?style=flat-square
-[thanks_link]: THANKS.md
+[thanks_link]: documents/THANKS.md
