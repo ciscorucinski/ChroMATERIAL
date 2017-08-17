@@ -1,2 +1,2 @@
-rootProject.name = 'ChroMATERIAL'
+rootProject.name = 'ChroMATERIAL Plugin'
 include 'ChroMATERIAL'
