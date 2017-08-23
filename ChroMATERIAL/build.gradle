@@ -1,0 +1,6 @@
+intellij {
+    pluginName 'ChroMATERIAL'
+}
+
+group 'io.github.ciscorucinski.chromaterial'
+version '2.0' // Plugin version
