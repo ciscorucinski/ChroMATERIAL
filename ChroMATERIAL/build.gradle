@@ -2,5 +2,45 @@ intellij {
     pluginName 'ChroMATERIAL'
 }
 
-group 'io.github.ciscorucinski.chromaterial'
+group 'com.facebook.rucinskic.chromaterial' //'io.github.ciscorucinski.chromaterial'
 version '2.0' // Plugin version
+
+def GROUP_CHROMATERIAL = 'ChroMATERIAL'
+
+def sourceDir = 'src/colors'
+def intelliJColorSchemeDir = "C:\\Users\\Christopher\\.Idea${intellij.type}${intellij.version}\\config\\colors"
+
+task syncFiles(type: Copy) {
+
+    group GROUP_CHROMATERIAL
+    description "Syncronizes the original color scheme files from IntelliJ IDEA into the project and changes the extension to be xml"
+
+    into sourceDir
+    from intelliJColorSchemeDir, {
+        include '**'
+        rename '(.*)\\.icls$', '$1.xml'
+        rename 'ChroMATERIAL IntelliJ IDEA.xml', 'ChroMATERIAL.xml'
+    }
+
+    doLast {
+        println("Syncing and renaming files...\n\tfrom\t'$intelliJColorSchemeDir' \n\tinto\t'$sourceDir'")
+    }
+
+}
+
+task renameFiles {
+
+    group GROUP_CHROMATERIAL
+    description "Changes the '.icls' file extension of any file in the source directory to '.xml'."
+
+    doLast {
+        ant.move(todir: sourceDir) {
+            ant.fileset(dir: sourceDir)
+            ant.globmapper(from: "*.icls", to: "*.xml")
+        }
+    }
+}
+
+build.dependsOn renameFiles
+clean.dependsOn renameFiles
+buildPlugin.dependsOn renameFiles

@@ -1,6 +1,6 @@
 # Generated files
 out/
-/build
+build/
 /local.properties
 .DS_Store
 
@@ -16,10 +16,13 @@ composer.lock
 # files
 *.iml
 
+# Gradle
+.gradle
+!.idea/gradle.xml
+
 # Extracting Plugin JAR file
 installed.txt
 IntelliJ IDEA Global Settings
 
-# Gradle
-.gradle
-!.idea/gradle.xml
+# Sync Files
+lvf_ChroMATERIAL Sync.xml

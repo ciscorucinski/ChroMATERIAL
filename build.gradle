@@ -5,11 +5,14 @@ plugins {
 subprojects {
 
     apply plugin: 'org.jetbrains.intellij'
-    apply plugin: 'idea'
 
     intellij {
-        version 'IC-2017.2' //IntelliJ IDEA 2016.3 dependency; for a full list of IntelliJ IDEA releases please see https://www.jetbrains.com/intellij-repository/releases
-        type 'IC'
+
         updateSinceUntilBuild false
+
+        // These two need to be set to the version of IDEA being used
+        type 'IC'
+        version '2017.2'
+
     }
 }
