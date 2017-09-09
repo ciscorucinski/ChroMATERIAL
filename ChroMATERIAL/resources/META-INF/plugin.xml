@@ -8,7 +8,6 @@
 
   <description>
     <![CDATA[
-
       ChroMATERIAL is a color scheme that expresses the chromatic nature of Material Design within IntelliJ and Android
       Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor. It's
       uniqueness lies in the idea of "enhance influence, not banality". <br><br>
@@ -19,7 +18,6 @@
        - Supported Features: Android, Android Manifest, Android Resources, Android Native (C / C++), Gradle, Logcat, Proguard Files, Property Files, Version Control, Debugger, Diff, XSLT, XPATH, Ignore Files*, Markdown* <br><br>
 
       * - via Plugin
-
     ]]>
   </description>
 
