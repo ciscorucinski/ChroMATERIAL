@@ -22,6 +22,7 @@ patchPluginXml {
     pluginId 'com.facebook.rucinskic.chromaterial'
     version project['version'] // Plugin version
     sinceBuild '131'
+    untilBuild '999.*'
 
     pluginDescription """
         ChroMATERIAL is a color scheme that expresses the chromatic nature of Material Design within IntelliJ and Android
@@ -91,7 +92,7 @@ task copyGeneratedLibs() {
 
     group GROUP_CHROMATERIAL
 
-    finalizedBy "copyJar_CurrentVersion"
+    finalizedBy "copyJar_v${project['version']}"
     finalizedBy "copyJars_All"
     finalizedBy "copyPatchedPluginXML"
 
@@ -127,17 +128,20 @@ task renameFiles {
     }
 }
 
-task copyJar_CurrentVersion (type: Copy) {
+tasks.create(name: "copyJar_v${project['version']}") {
 
     group GROUP_CHROMATERIAL
 
     def mostCurrentJarFile = "ChroMATERIAL-${project['version']}.jar"
 
-    into '/'
-    from 'build/libs', {
-        include mostCurrentJarFile
-        rename mostCurrentJarFile, 'ChroMATERIAL.jar'
+    copy {
+        into '/'
+        from 'build/libs', {
+            include mostCurrentJarFile
+            rename mostCurrentJarFile, 'ChroMATERIAL.jar'
+        }
     }
+
 }
 
 task copyJars_All(type: Copy) {
