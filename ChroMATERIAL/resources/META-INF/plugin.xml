@@ -1,106 +1,79 @@
 <idea-plugin>
   <id>com.facebook.rucinskic.chromaterial</id>
   <name>ChroMATERIAL</name>
-  <version>2.0</version>
+  <version>2.0.1</version>
   <vendor email="chromaterial.plugin@gmail.com" url="https://github.com/ciscorucinski/ChroMATERIAL">
     ChristopherRucinski
   </vendor>
-
   <description>
-    <![CDATA[
-      ChroMATERIAL is a color scheme that expresses the chromatic nature of Material Design within IntelliJ and Android
-      Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor. It's
-      uniqueness lies in the idea of "enhance influence, not banality". <br><br>
-
-       - Color Schemes: Default (dark), Darcula-compatible, Darker<br><br>
-
-       - Supported Languages: Java, Kotlin, Groovy, XML, JSON, HTML, Regex, YAML<br>
-       - Supported Features: Android, Android Manifest, Android Resources, Android Native (C / C++), Gradle, Logcat, Proguard Files, Property Files, Version Control, Debugger, Diff, XSLT, XPATH, Ignore Files*, Markdown* <br><br>
-
-      * - via Plugin
-    ]]>
+    ChroMATERIAL is a color scheme that expresses the chromatic nature of Material Design within IntelliJ and Android
+    Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor. It's
+    uniqueness lies in the idea of "enhance influence, not banality". &lt;br&gt;&lt;br&gt;
+    - Color Schemes: Default (dark), Darcula-compatible, Darker&lt;br&gt;&lt;br&gt;
+    - Supported Languages: Java, Kotlin, Groovy, XML, JSON, HTML, Regex, YAML&lt;br&gt;
+    - Supported Features: Android, Android Manifest, Android Resources, Android Native (C / C++), Gradle, Logcat,
+    Proguard Files, Property Files, Version Control, Debugger, Diff, XSLT, XPATH, Ignore Files*, Markdown* &lt;br&gt;&lt;br&gt;
+    * - via Plugin&lt;br&gt;
   </description>
-
   <change-notes>
-    <![CDATA[
+    v2.0.1 :: &lt;br&gt;&lt;br&gt;
 
-       v2.0.1 :: <br><br>
+    - Updated Languages: Groovy&lt;br&gt;&lt;br&gt;
 
-       - Updated Languages: Groovy<br><br>
+    - Notable changes: &lt;br&gt;&lt;br&gt;
 
-       - Notable changes: <br><br>
+    * Fixed regression with Gradle DSL not displayed as green. (Closes #31)&lt;br&gt;
+    * Fixed regression with Groovy Unknown Symbol having a gray boxed effect. (Closes #32)&lt;br&gt;&lt;br&gt;
 
-         * Fixed regression with Gradle DSL not displayed as green. (Closes #31)<br>
-         * Fixed regression with Groovy Unknown Symbol not having a gray boxed effect. (Closes #32)<br><br>
+    v2.0 :: &lt;br&gt;&lt;br&gt;
 
-       v2.0 :: <br><br>
+    - Added Themes: Darker, Darcula-compatible&lt;br&gt;
+    - Added Languages: Kotlin, Markdown&lt;br&gt;&lt;br&gt;
 
-       - Added Themes: Darker, Darcula-compatible<br>
-       - Added Languages: Kotlin, Markdown<br><br>
+    - Other Notable changes: &lt;br&gt;&lt;br&gt;
 
-       - Other Notable changes: <br><br>
+    * Standardized colors across all languages.&lt;br&gt;
+    * Added Breadcrumb color support to the editor.&lt;br&gt;
+    * Enhanced Injected language color support.&lt;br&gt;
+    * Added Read-only color support.&lt;br&gt;
+    * Modified HTML Tree Tag level colors.&lt;br&gt;
+    * Updated all warnings and errors to use italics.&lt;br&gt;
+    * Unused identifiers are enhanced to prevent further issues.&lt;br&gt;
+    * Enhanced Java instance field colors.&lt;br&gt;
+    * Android Logcat's Assert are now purple.&lt;br&gt;
+    * Tear line (plus collapse / expand buttons) are now green.&lt;br&gt;
+    * Fixed regression with not highlighting all instances of the current identifier under the carat.&lt;br&gt;&lt;br&gt;
 
-         * Standardized colors across all languages.<br>
-         * Added Breadcrumb color support to the editor.<br>
-         * Enhanced Injected language color support.<br>
-         * Added Read-only color support.<br>
-         * Modified HTML Tree Tag level colors.<br>
-         * Updated all warnings and errors to use italics.<br>
-         * Unused identifiers are enhanced to prevent further issues.<br>
-         * Enhanced Java instance field colors.<br>
-         * Android Logcat's Assert are now purple.<br>
-         * Tear line (plus collapse / expand buttons) are now green.<br>
-         * Fixed regression with not highlighting all instances of the current identifier under the carat.<br><br>
+    v1.1.1 :: &lt;br&gt;&lt;br&gt;
 
-      v1.1.1 :: <br><br>
+    - v1.1 did not work when deployed. This is a quick-fix. &lt;br&gt;&lt;br&gt;
 
-       - v1.1 did not work when deployed. This is a quick-fix. <br><br>
+    v1.1 :: &lt;br&gt;&lt;br&gt;
 
-      v1.1 :: <br><br>
+    - Added Languages: Android Native (C / C++)&lt;br&gt;
+    - Added Support: Debugger, ProGuard files, Ignore files &lt;br&gt;&lt;br&gt;
 
-       - Added Languages: Android Native (C / C++)<br>
-       - Added Support: Debugger, ProGuard files, Ignore files <br><br>
+    - Other Notable changes: &lt;br&gt;&lt;br&gt;
 
-       - Other Notable changes: <br><br>
+    * Simplified the color scheme.&lt;br&gt;
+    * Folded text is a different color.&lt;br&gt;
+    * Numbers and Strings are the same color.&lt;br&gt;
+    * Annotation colors are similar in style to comments. &lt;br&gt;&lt;br&gt;
 
-         * Simplified the color scheme.<br>
-         * Folded text is a different color.<br>
-         * Numbers and Strings are the same color.<br>
-         * Annotation colors are similar in style to comments. <br><br>
+    v1.0 :: Initial Release: &lt;br&gt;&lt;br&gt;
 
-      v1.0 :: Initial Release: <br><br>
-
-       - Added Color Scheme: Default (dark)<br>
-       - Added Languages: Java, Groovy, XML, JSON, HTML<br>
-       - Added Support: Android, Android Manifest, Android Resources, Gradle files, LogCat, Property files, and diffs <br>
-
-    ]]>
+    - Added Color Scheme: Default (dark)&lt;br&gt;
+    - Added Languages: Java, Groovy, XML, JSON, HTML&lt;br&gt;
+    - Added Support: Android, Android Manifest, Android Resources, Gradle files, LogCat, Property files, and diffs &lt;br&gt;
   </change-notes>
-
-  <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Build+Number+Ranges for description -->
-  <idea-version since-build="131"/>
-
-  <!-- please see https://confluence.jetbrains.com/display/IDEADEV/Plugin+Compatibility+with+IntelliJ+Platform+Products
-       on how to target different products -->
-
+  <idea-version since-build="131" until-build="172.*"/>
   <depends>com.intellij.modules.lang</depends>
-
   <extensions defaultExtensionNs="com.intellij">
     <bundledColorScheme path="colors/ChroMATERIAL"/>
     <bundledColorScheme path="colors/ChroMATERIAL -- Darker"/>
     <bundledColorScheme path="colors/ChroMATERIAL -- Darcula"/>
   </extensions>
-
-  <application-components>
-    <!-- Add your application components here -->
-  </application-components>
-
-  <project-components>
-    <!-- Add your project components here -->
-  </project-components>
-
-  <actions>
-    <!-- Add your actions here -->
-  </actions>
-
+  <application-components/>
+  <project-components/>
+  <actions/>
 </idea-plugin>

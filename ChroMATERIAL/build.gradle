@@ -3,12 +3,24 @@ intellij {
     updateSinceUntilBuild true
 }
 
+sourceSets {
+    main {
+        resources.srcDirs = ['resources', 'src']
+    }
+}
+
+def GROUP_CHROMATERIAL = 'ChroMATERIAL'
+
 group 'com.facebook.rucinskic.chromaterial' //'io.github.ciscorucinski.chromaterial'
+version '2.0.1'
+
+def sourceDir = 'src/colors'
+def intelliJColorSchemeDir = "C:\\Users\\Christopher\\.Idea${intellij.type}${intellij.version}\\config\\colors"
 
 patchPluginXml {
 
     pluginId 'com.facebook.rucinskic.chromaterial'
-    version '2.0.1' // Plugin version
+    version project['version'] // Plugin version
     sinceBuild '131'
 
     pluginDescription """
@@ -29,7 +41,7 @@ patchPluginXml {
         - Notable changes: <br><br>
         
          * Fixed regression with Gradle DSL not displayed as green. (Closes #31)<br>
-         * Fixed regression with Groovy Unknown Symbol not having a gray boxed effect. (Closes #32)<br><br>
+         * Fixed regression with Groovy Unknown Symbol having a gray boxed effect. (Closes #32)<br><br>
         
         v2.0 :: <br><br>
         
@@ -75,18 +87,15 @@ patchPluginXml {
 
 }
 
-sourceSets {
-    main {
-        java.srcDir 'src/java'
-        resources.srcDirs 'resources'
-    }
+task copyGeneratedLibs() {
+
+    group GROUP_CHROMATERIAL
+
+    finalizedBy "copyJar_CurrentVersion"
+    finalizedBy "copyJars_All"
+    finalizedBy "copyPatchedPluginXML"
+
 }
-
-
-def GROUP_CHROMATERIAL = 'ChroMATERIAL'
-
-def sourceDir = 'src/colors'
-def intelliJColorSchemeDir = "C:\\Users\\Christopher\\.Idea${intellij.type}${intellij.version}\\config\\colors"
 
 task syncFiles(type: Copy) {
 
@@ -118,6 +127,36 @@ task renameFiles {
     }
 }
 
+task copyJar_CurrentVersion (type: Copy) {
+
+    group GROUP_CHROMATERIAL
+
+    def mostCurrentJarFile = "ChroMATERIAL-${project['version']}.jar"
+
+    into '/'
+    from 'build/libs', {
+        include mostCurrentJarFile
+        rename mostCurrentJarFile, 'ChroMATERIAL.jar'
+    }
+}
+
+task copyJars_All(type: Copy) {
+
+    group GROUP_CHROMATERIAL
+
+    into 'libs/'
+    from 'build/libs'
+}
+
+task copyPatchedPluginXML(type:  Copy) {
+
+    group GROUP_CHROMATERIAL
+
+    into 'resources/META-INF/'
+    from 'build/patchedPluginXmlFiles' include 'plugin.xml'
+}
+
 build.dependsOn renameFiles
 clean.dependsOn renameFiles
 buildPlugin.dependsOn renameFiles
+buildPlugin.finalizedBy copyGeneratedLibs
