@@ -5,7 +5,14 @@ intellij {
 
 sourceSets {
     main {
-        resources.srcDirs = ['resources', 'src']
+        resources {
+            srcDir 'resources'
+            exclude 'html/**'
+            exclude 'html'
+
+            srcDir 'src'
+
+        }
     }
 }
 
@@ -17,6 +24,16 @@ version '2.0.1'
 def sourceDir = 'src/colors'
 def intelliJColorSchemeDir = "C:\\Users\\Christopher\\.Idea${intellij.type}${intellij.version}\\config\\colors"
 
+def contentIndex = "        "
+def tagIndex = "  "
+
+def htmlFixer = {f -> file(f).text
+        .replace('\n', "\n${contentIndex}")     // Add indentation to make plugin.xml look good
+        .trim()
+        .replace('<html>', '\n')
+        .replace("</html>", "\n${tagIndex}")
+}
+
 patchPluginXml {
 
     pluginId 'com.facebook.rucinskic.chromaterial'
@@ -24,67 +41,33 @@ patchPluginXml {
     sinceBuild '131'
     untilBuild '999.*'
 
-    pluginDescription """
-        ChroMATERIAL is a color scheme that expresses the chromatic nature of Material Design within IntelliJ and Android
-        Studio. In particular, ChroMATERIAL focuses on syntax highlighting of code within the IDE's code editor. It's
-        uniqueness lies in the idea of "enhance influence, not banality". <br><br>
-         - Color Schemes: Default (dark), Darcula-compatible, Darker<br><br>
-         - Supported Languages: Java, Kotlin, Groovy, XML, JSON, HTML, Regex, YAML<br>
-         - Supported Features: Android, Android Manifest, Android Resources, Android Native (C / C++), Gradle, Logcat, Proguard Files, Property Files, Version Control, Debugger, Diff, XSLT, XPATH, Ignore Files*, Markdown* <br><br>
-        * - via Plugin<br>
-  """
+    pluginDescription htmlFixer('resources/html/pluginDescription.html')
+    changeNotes htmlFixer('resources/html/changeLog.html')
 
-    changeNotes """
-        v2.0.1 :: <br><br>
-        
-        - Updated Languages: Groovy<br><br>
-        
-        - Notable changes: <br><br>
-        
-         * Fixed regression with Gradle DSL not displayed as green. (Closes #31)<br>
-         * Fixed regression with Groovy Unknown Symbol having a gray boxed effect. (Closes #32)<br><br>
-        
-        v2.0 :: <br><br>
-        
-        - Added Themes: Darker, Darcula-compatible<br>
-        - Added Languages: Kotlin, Markdown<br><br>
-        
-        - Other Notable changes: <br><br>
-        
-         * Standardized colors across all languages.<br>
-         * Added Breadcrumb color support to the editor.<br>
-         * Enhanced Injected language color support.<br>
-         * Added Read-only color support.<br>
-         * Modified HTML Tree Tag level colors.<br>
-         * Updated all warnings and errors to use italics.<br>
-         * Unused identifiers are enhanced to prevent further issues.<br>
-         * Enhanced Java instance field colors.<br>
-         * Android Logcat's Assert are now purple.<br>
-         * Tear line (plus collapse / expand buttons) are now green.<br>
-         * Fixed regression with not highlighting all instances of the current identifier under the carat.<br><br>
-        
-        v1.1.1 :: <br><br>
-        
-        - v1.1 did not work when deployed. This is a quick-fix. <br><br>
-        
-        v1.1 :: <br><br>
-        
-        - Added Languages: Android Native (C / C++)<br>
-        - Added Support: Debugger, ProGuard files, Ignore files <br><br>
-        
-        - Other Notable changes: <br><br>
-        
-         * Simplified the color scheme.<br>
-         * Folded text is a different color.<br>
-         * Numbers and Strings are the same color.<br>
-         * Annotation colors are similar in style to comments. <br><br>
-        
-        v1.0 :: Initial Release: <br><br>
-        
-        - Added Color Scheme: Default (dark)<br>
-        - Added Languages: Java, Groovy, XML, JSON, HTML<br>
-        - Added Support: Android, Android Manifest, Android Resources, Gradle files, LogCat, Property files, and diffs <br>
-  """
+}
+
+verifyPlugin {
+
+    def verifyingFile = file('resources/html/changeLog.html')
+
+    def startText = "<h2>v"
+    def endText = "</h2>"
+
+    def startIndex = verifyingFile.text.indexOf(startText)
+    def endIndex = verifyingFile.text.indexOf(endText)
+
+    def fileVersion = verifyingFile.text.substring(startIndex + startText.length(), endIndex)
+
+    doLast {
+
+        println("\tExpected ChangeLog Version Text - ${project['version']}")
+        println("\tMost Recent Updated Version     - ${fileVersion}")
+
+        if (!fileVersion.startsWith("${project['version']}")) {
+            throw new GradleException("Verification Error ::\n\tPlugin version is out-of-date.\n\tPlease add the correct version information (${fileVersion} --> ${project['version']}).")
+        }
+        println("\tPlugin version is up-to-date")
+    }
 
 }
 
@@ -152,7 +135,7 @@ task copyJars_All(type: Copy) {
     from 'build/libs'
 }
 
-task copyPatchedPluginXML(type:  Copy) {
+task copyPatchedPluginXML(type: Copy) {
 
     group GROUP_CHROMATERIAL
 
