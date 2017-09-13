@@ -19,7 +19,7 @@ sourceSets {
 def GROUP_CHROMATERIAL = 'ChroMATERIAL'
 
 group 'com.facebook.rucinskic.chromaterial' //'io.github.ciscorucinski.chromaterial'
-version '2.0.1'
+version '2.1'
 
 def sourceDir = 'src/colors'
 def intelliJColorSchemeDir = "C:\\Users\\Christopher\\.Idea${intellij.type}${intellij.version}\\config\\colors"
@@ -50,25 +50,26 @@ verifyPlugin {
 
     def verifyingFile = file('resources/html/changeLog.html')
 
-    def startText = "<h2>v"
-    def endText = "</h2>"
+    def startIndex = verifyingFile.text.indexOf("<h2>v")
+    def endIndex = verifyingFile.text.indexOf("</h2>")
 
-    def startIndex = verifyingFile.text.indexOf(startText)
-    def endIndex = verifyingFile.text.indexOf(endText)
+    def fileVersion = verifyingFile.text.substring(startIndex + 5, endIndex)
 
-    def fileVersion = verifyingFile.text.substring(startIndex + startText.length(), endIndex)
+    println("\tExpected ChangeLog Version Text - ${project['version']}")
+    println("\tMost Recent Updated Version     - ${fileVersion}")
 
-    doLast {
-
-        println("\tExpected ChangeLog Version Text - ${project['version']}")
-        println("\tMost Recent Updated Version     - ${fileVersion}")
-
-        if (!fileVersion.startsWith("${project['version']}")) {
-            throw new GradleException("Verification Error ::\n\tPlugin version is out-of-date.\n\tPlease add the correct version information (${fileVersion} --> ${project['version']}).")
-        }
-        println("\tPlugin version is up-to-date")
+    if (!(fileVersion == "${project['version']}")) {
+        throw new GradleException("Verification Error :: Plugin version is out-of-date.\nPlease add the correct version information to `${verifyingFile.name}` (${fileVersion} --> ${project['version']})")
     }
+    println("Plugin version is up-to-date")
 
+}
+
+publishPlugin {
+    username usernameJetBrainPluginRepo
+    password passwordJetBrainPluginRepo
+//    channels 'eap'
+    distributionFile 'ChroMATERIAL.jar'
 }
 
 task copyGeneratedLibs() {
@@ -106,7 +107,11 @@ task renameFiles {
     doLast {
         ant.move(todir: sourceDir) {
             ant.fileset(dir: sourceDir)
-            ant.globmapper(from: "*.icls", to: "*.xml")
+            ant.mapper {
+                ant.globmapper(from: 'ChroMATERIAL IntelliJ IDEA.icls', to: 'ChroMATERIAL.xml')
+                ant.globmapper(from: "*.icls", to: "*.xml")
+            }
+
         }
     }
 }
