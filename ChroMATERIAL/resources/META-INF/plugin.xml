@@ -27,14 +27,14 @@
     &lt;h2&gt;v2.1&lt;/h2&gt;
     &lt;ul&gt;
     &lt;li&gt;&lt;b&gt;Updated Languages:&lt;/b&gt; Groovy&lt;/li&gt;
-    &lt;br&gt;
+    &lt;br/&gt;
     &lt;li&gt;&lt;b&gt;Notable changes:&lt;/b&gt;&lt;/li&gt;
-    &lt;br&gt;
+    &lt;br/&gt;
     &lt;ul&gt;
     &lt;li&gt;Fixed regression with Gradle DSL not displayed as green. &lt;em&gt;(Closes #31)&lt;/em&gt;&lt;/li&gt;
     &lt;li&gt;Fixed regression with Groovy Unknown Symbol having a gray boxed effect. &lt;em&gt;(Closes #32)&lt;/em&gt;&lt;/li&gt;
     &lt;li&gt;Changed Unused Symbols to have yellow underlines &lt;em&gt;(Closes #33)&lt;/em&gt;&lt;/li&gt;
-    &lt;li&gt;Updated Build System to use Gradle
+    &lt;li&gt;Updated Build System to use Gradle&lt;/li&gt;&gt;
     &lt;/ul&gt;
     &lt;/ul&gt;
 
@@ -43,9 +43,9 @@
     &lt;ul&gt;
     &lt;li&gt;&lt;b&gt;Added Themes:&lt;/b&gt; Darker, Darcula-compatible&lt;/li&gt;
     &lt;li&gt;&lt;b&gt;Added Languages&lt;/b&gt;: Kotlin, Markdown&lt;/li&gt;
-    &lt;br&gt;
+    &lt;br/&gt;
     &lt;li&gt;&lt;b&gt;Other Notable changes:&lt;/b&gt;&lt;/li&gt;
-    &lt;br&gt;
+    &lt;br/&gt;
     &lt;ul&gt;
     &lt;li&gt;Standardized colors across all languages.&lt;/li&gt;
     &lt;li&gt;Added Breadcrumb color support to the editor.&lt;/li&gt;
@@ -72,27 +72,26 @@
     &lt;ul&gt;
     &lt;li&gt;&lt;b&gt;Added Languages:&lt;/b&gt; Android Native (C / C++)&lt;/li&gt;
     &lt;li&gt;&lt;b&gt;Added Support:&lt;/b&gt; Debugger, ProGuard files, Ignore files&lt;/li&gt;
-    &lt;br&gt;
+    &lt;br/&gt;
     &lt;li&gt;&lt;b&gt;Other Notable changes:&lt;/b&gt;&lt;/li&gt;
-    &lt;br&gt;
+    &lt;br/&gt;
     &lt;ul&gt;
     &lt;li&gt;Simplified the color scheme.&lt;/li&gt;
     &lt;li&gt;Folded text is a different color.&lt;/li&gt;
     &lt;li&gt;Numbers and Strings are the same color.&lt;/li&gt;
     &lt;li&gt;Annotation colors are similar in style to comments.&lt;/li&gt;
-    &lt;br&gt;
+    &lt;br/&gt;
     &lt;/ul&gt;
     &lt;/ul&gt;
 
-    &lt;h2&gt;v1.0 :: Initial Release:&lt;/h2&gt;
+    &lt;h2&gt;v1.0&lt;/h2&gt;
 
     &lt;ul&gt;
     &lt;li&gt;&lt;b&gt;Added Color Scheme:&lt;/b&gt; Default (dark)&lt;/li&gt;
     &lt;li&gt;&lt;b&gt;Added Languages:&lt;/b&gt; Java, Groovy, XML, JSON, HTML&lt;/li&gt;
     &lt;li&gt;&lt;b&gt;Added Support:&lt;/b&gt; Android, Android Manifest, Android Resources, Gradle files, LogCat,
     Property files, and
-    diffs
-    &lt;/li&gt;
+    diffs&lt;/li&gt;
     &lt;/ul&gt;
         
   </change-notes>

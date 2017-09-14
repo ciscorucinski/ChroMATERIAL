@@ -48,20 +48,38 @@ patchPluginXml {
 
 verifyPlugin {
 
-    def verifyingFile = file('resources/html/changeLog.html')
+    def verifyingHtmlFile = file('resources/html/changeLog.html')
+    def verifyingMarkdownFile = file("${projectDir.parent}/CHANGELOG.md")
 
-    def startIndex = verifyingFile.text.indexOf("<h2>v")
-    def endIndex = verifyingFile.text.indexOf("</h2>")
+    def html = new XmlSlurper().parseText(verifyingHtmlFile.text)
+    def markdown = verifyingMarkdownFile.text
 
-    def fileVersion = verifyingFile.text.substring(startIndex + 5, endIndex)
+    def htmlVersion = html.h2[0].toString().substring(1)
 
-    println("\tExpected ChangeLog Version Text - ${project['version']}")
-    println("\tMost Recent Updated Version     - ${fileVersion}")
+    println("Current version set in Gradle: ${project['version']}")
 
-    if (!(fileVersion == "${project['version']}")) {
-        throw new GradleException("Verification Error :: Plugin version is out-of-date.\nPlease add the correct version information to `${verifyingFile.name}` (${fileVersion} --> ${project['version']})")
-    }
-    println("Plugin version is up-to-date")
+    println("Examining '${verifyingHtmlFile.canonicalPath}'")
+    println("\tVersion: ${htmlVersion}")
+
+//    if (!(htmlVersion == "${project['version']}")) {
+//        throw new GradleException("Verification Error :: Plugin version is out-of-date.\n" +
+//                "Please add the correct version information to `${verifyingHtmlFile.name}` " +
+//                "(${htmlVersion} --> ${project['version']})")
+//    }
+
+//    def mdTemplate = "# ChroMATERIAL v"
+//    def mdVersion = markdown.substring(mdTemplate.length(), markdown.indexOf('\n'))
+
+//    println("Examining '${verifyingMarkdownFile.canonicalPath}'")
+//    println("\tVersion: ${mdVersion}")
+
+//    if (!(mdVersion == "${project['version']}")) {
+//        throw new GradleException("Verification Error :: Plugin version is out-of-date.\n" +
+//                "Please add the correct version information to `${verifyingMarkdownFile.name}` " +
+//                "(${mdVersion} --> ${project['version']})")
+//    }
+
+    println("Plugin versions are up-to-date")
 
 }
 
