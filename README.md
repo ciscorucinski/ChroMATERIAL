@@ -68,6 +68,12 @@ It's uniqueness lies in the idea...
 <!-- Latest Version -->
 [latest_img_normal]: https://cloud.githubusercontent.com/assets/8707125/12482832/27668d52-c095-11e5-89e9-01bb67e65aba.PNG
 
+<!-- v2.1 -->
+[v2.1_img_normal]: #
+
+<!-- v2.0 -->
+[v2.0_img_normal]: #
+
 <!-- v1.2 -->
 [v1.2_img_normal]: #
 
@@ -99,9 +105,9 @@ It's uniqueness lies in the idea...
 [license_img]: https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square
 [license_link]: LICENSE
 
-[default_img]: https://img.shields.io/badge/Default_Color_Scheme-In_Progress-green.svg?style=flat-square
-[darcula_img]: https://img.shields.io/badge/Darcula--compatible_Color_Scheme-In_Progress-green.svg?style=flat-square
-[darker_img]: https://img.shields.io/badge/Darker_Color_Scheme-In_Progress-green.svg?style=flat-square
+[default_img]: https://img.shields.io/badge/Default_Color_Scheme-Complete-brightgreen.svg?style=flat-square
+[darcula_img]: https://img.shields.io/badge/Darcula--compatible_Color_Scheme-Complete-brightgreen.svg?style=flat-square
+[darker_img]: https://img.shields.io/badge/Darker_Color_Scheme-Complete-brightgreen.svg?style=flat-square
 [lighter_img]: https://img.shields.io/badge/Lighter_Color_Scheme-Future-red.svg?style=flat-square
 
 [thanks_img]: https://img.shields.io/badge/Special_Thanks-3-blue.svg?style=flat-square
