@@ -1,3 +1,18 @@
+# ChroMATERIAL v2.1
+
+##### Updated
+
+| Type             | Supported |
+| :--------------: | :-------- |
+| **Languages**    | <kbd>Gradle</kbd> |
+
+##### Other Notable changes:
+
+ * Fixed regression with Gradle DSL not displayed as green. (Closes #31)<br>
+ * Fixed regression with Groovy Unknown Symbol having a gray boxed effect. (Closes #32)<br>
+ * Changed Unused Symbols to have yellow underlines. (Closes #33)<br>
+ * Updated Build System to use Gradle.<br>
+
 # ChroMATERIAL v2.0
 
 ##### Added

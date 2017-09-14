@@ -1,5 +1,8 @@
 # Generated files
 out/
+build/
+/local.properties
+.DS_Store
 
 # IDE files
 nbproject
@@ -13,6 +16,13 @@ composer.lock
 # files
 *.iml
 
+# Gradle
+.gradle
+!.idea/gradle.xml
+
 # Extracting Plugin JAR file
 installed.txt
 IntelliJ IDEA Global Settings
+
+# Sync Files
+lvf_ChroMATERIAL Sync.xml

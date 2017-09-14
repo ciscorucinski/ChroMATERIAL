@@ -1,0 +1,34 @@
+buildscript {
+    repositories {
+        mavenCentral()
+        maven {
+            url "https://oss.sonatype.org/content/repositories/snapshots/"
+        }
+        maven {
+            url 'http://dl.bintray.com/jetbrains/intellij-plugin-service'
+        }
+
+    }
+    dependencies {
+        classpath "org.jetbrains.intellij.plugins:gradle-intellij-plugin:0.3.0-SNAPSHOT"
+    }
+}
+
+//plugins {
+//    id "org.jetbrains.intellij" version "0.2.17"
+//}
+
+subprojects {
+
+    apply plugin: 'org.jetbrains.intellij'
+
+    intellij {
+
+        updateSinceUntilBuild false
+
+        // These two need to be set to the version of IDEA being used
+        type 'IC'
+        version '2017.2'
+
+    }
+}

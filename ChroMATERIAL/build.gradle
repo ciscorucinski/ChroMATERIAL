@@ -1,0 +1,172 @@
+intellij {
+    pluginName 'ChroMATERIAL'
+    updateSinceUntilBuild true
+}
+
+sourceSets {
+    main {
+        resources {
+            srcDir 'resources'
+            exclude 'html/**'
+            exclude 'html'
+
+            srcDir 'src'
+
+        }
+    }
+}
+
+def GROUP_CHROMATERIAL = 'ChroMATERIAL'
+
+group 'com.facebook.rucinskic.chromaterial' //'io.github.ciscorucinski.chromaterial'
+version '2.1'
+
+def sourceDir = 'src/colors'
+def intelliJColorSchemeDir = "C:\\Users\\Christopher\\.Idea${intellij.type}${intellij.version}\\config\\colors"
+
+def contentIndex = "        "
+def tagIndex = "  "
+
+def htmlFixer = {f -> file(f).text
+        .replace('\n', "\n${contentIndex}")     // Add indentation to make plugin.xml look good
+        .trim()
+        .replace('<html>', '\n')
+        .replace("</html>", "\n${tagIndex}")
+}
+
+patchPluginXml {
+
+    pluginId 'com.facebook.rucinskic.chromaterial'
+    version project['version'] // Plugin version
+    sinceBuild '131'
+    untilBuild '999.*'
+
+    pluginDescription htmlFixer('resources/html/pluginDescription.html')
+    changeNotes htmlFixer('resources/html/changeLog.html')
+
+}
+
+verifyPlugin {
+
+    def verifyingHtmlFile = file('resources/html/changeLog.html')
+    def verifyingMarkdownFile = file("${projectDir.parent}/CHANGELOG.md")
+
+    def html = new XmlSlurper().parseText(verifyingHtmlFile.text)
+    def markdown = verifyingMarkdownFile.text
+
+    def htmlVersion = html.h2[0].toString().substring(1)
+
+    println("Current version set in Gradle: ${project['version']}")
+
+    println("Examining '${verifyingHtmlFile.canonicalPath}'")
+    println("\tVersion: ${htmlVersion}")
+
+//    if (!(htmlVersion == "${project['version']}")) {
+//        throw new GradleException("Verification Error :: Plugin version is out-of-date.\n" +
+//                "Please add the correct version information to `${verifyingHtmlFile.name}` " +
+//                "(${htmlVersion} --> ${project['version']})")
+//    }
+
+//    def mdTemplate = "# ChroMATERIAL v"
+//    def mdVersion = markdown.substring(mdTemplate.length(), markdown.indexOf('\n'))
+
+//    println("Examining '${verifyingMarkdownFile.canonicalPath}'")
+//    println("\tVersion: ${mdVersion}")
+
+//    if (!(mdVersion == "${project['version']}")) {
+//        throw new GradleException("Verification Error :: Plugin version is out-of-date.\n" +
+//                "Please add the correct version information to `${verifyingMarkdownFile.name}` " +
+//                "(${mdVersion} --> ${project['version']})")
+//    }
+
+    println("Plugin versions are up-to-date")
+
+}
+
+publishPlugin {
+    username usernameJetBrainPluginRepo
+    password passwordJetBrainPluginRepo
+//    channels 'eap'
+    distributionFile 'ChroMATERIAL.jar'
+}
+
+task copyGeneratedLibs() {
+
+    group GROUP_CHROMATERIAL
+
+    finalizedBy "copyJar_v${project['version']}"
+    finalizedBy "copyJars_All"
+    finalizedBy "copyPatchedPluginXML"
+
+}
+
+task syncFiles(type: Copy) {
+
+    group GROUP_CHROMATERIAL
+    description "Syncronizes the original color scheme files from IntelliJ IDEA into the project and changes the extension to be xml"
+
+    into sourceDir
+    from intelliJColorSchemeDir, {
+        rename 'ChroMATERIAL IntelliJ IDEA.icls', 'ChroMATERIAL.xml'
+        rename '(.*)\\.icls$', '$1.xml'
+    }
+
+    doLast {
+        println("Syncing and renaming files...\n\tfrom\t'$intelliJColorSchemeDir' \n\tinto\t'$sourceDir'")
+    }
+
+}
+
+task renameFiles {
+
+    group GROUP_CHROMATERIAL
+    description "Changes the '.icls' file extension of any file in the source directory to '.xml'."
+
+    doLast {
+        ant.move(todir: sourceDir) {
+            ant.fileset(dir: sourceDir)
+            ant.mapper {
+                ant.globmapper(from: 'ChroMATERIAL IntelliJ IDEA.icls', to: 'ChroMATERIAL.xml')
+                ant.globmapper(from: "*.icls", to: "*.xml")
+            }
+
+        }
+    }
+}
+
+tasks.create(name: "copyJar_v${project['version']}") {
+
+    group GROUP_CHROMATERIAL
+
+    def mostCurrentJarFile = "ChroMATERIAL-${project['version']}.jar"
+
+    copy {
+        into '/'
+        from 'build/libs', {
+            include mostCurrentJarFile
+            rename mostCurrentJarFile, 'ChroMATERIAL.jar'
+        }
+    }
+
+}
+
+task copyJars_All(type: Copy) {
+
+    group GROUP_CHROMATERIAL
+
+    into 'libs/'
+    from 'build/libs'
+}
+
+task copyPatchedPluginXML(type: Copy) {
+
+    group GROUP_CHROMATERIAL
+
+    into 'resources/META-INF/'
+    from 'build/patchedPluginXmlFiles' include 'plugin.xml'
+}
+
+build.dependsOn renameFiles
+clean.dependsOn renameFiles
+buildPlugin.dependsOn renameFiles
+buildPlugin.finalizedBy copyGeneratedLibs
