@@ -90,8 +90,7 @@
     &lt;li&gt;&lt;b&gt;Added Color Scheme:&lt;/b&gt; Default (dark)&lt;/li&gt;
     &lt;li&gt;&lt;b&gt;Added Languages:&lt;/b&gt; Java, Groovy, XML, JSON, HTML&lt;/li&gt;
     &lt;li&gt;&lt;b&gt;Added Support:&lt;/b&gt; Android, Android Manifest, Android Resources, Gradle files, LogCat,
-    Property files, and
-    diffs
+    Property files, and diffs
     &lt;/li&gt;
     &lt;/ul&gt;
         
