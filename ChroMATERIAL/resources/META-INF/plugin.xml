@@ -34,7 +34,7 @@
     &lt;li&gt;Fixed regression with Gradle DSL not displayed as green. &lt;em&gt;(Closes #31)&lt;/em&gt;&lt;/li&gt;
     &lt;li&gt;Fixed regression with Groovy Unknown Symbol having a gray boxed effect. &lt;em&gt;(Closes #32)&lt;/em&gt;&lt;/li&gt;
     &lt;li&gt;Changed Unused Symbols to have yellow underlines &lt;em&gt;(Closes #33)&lt;/em&gt;&lt;/li&gt;
-    &lt;li&gt;Updated Build System to use Gradle&lt;/li&gt;&gt;
+    &lt;li&gt;Updated Build System to use Gradle&lt;/li&gt;
     &lt;/ul&gt;
     &lt;/ul&gt;
 
@@ -91,7 +91,8 @@
     &lt;li&gt;&lt;b&gt;Added Languages:&lt;/b&gt; Java, Groovy, XML, JSON, HTML&lt;/li&gt;
     &lt;li&gt;&lt;b&gt;Added Support:&lt;/b&gt; Android, Android Manifest, Android Resources, Gradle files, LogCat,
     Property files, and
-    diffs&lt;/li&gt;
+    diffs
+    &lt;/li&gt;
     &lt;/ul&gt;
         
   </change-notes>
