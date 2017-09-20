@@ -1,6 +1,6 @@
 intellij {
     pluginName 'ChroMATERIAL'
-    updateSinceUntilBuild true
+    updateSinceUntilBuild false
 }
 
 sourceSets {
@@ -38,8 +38,8 @@ patchPluginXml {
 
     pluginId 'com.facebook.rucinskic.chromaterial'
     version project['version'] // Plugin version
-    sinceBuild '131'
-    untilBuild '999.*'
+//    sinceBuild '131'
+//    untilBuild '999.*'
 
     pluginDescription htmlFixer('resources/html/pluginDescription.html')
     changeNotes htmlFixer('resources/html/changeLog.html')
@@ -47,19 +47,35 @@ patchPluginXml {
 }
 
 verifyPlugin {
+//
+//    def verifyingHtmlFile = file('resources/html/changeLog.html')
+//    def verifyingMarkdownFile = file("${projectDir.parent}/CHANGELOG.md")
+//
+//    def html = new XmlSlurper().parseText(verifyingHtmlFile.text)
+//    def markdown = verifyingMarkdownFile.text
+//
+//    def htmlVersion = html.h2[0].toString().substring(1)
+//
+//    def canStart = false
+//
+//    def newVersionHtml
+//
+//    def temp = html.each {
+//        if (it == html.h2[0]) canStart = true
+//
+//        if (canStart && it.) {
+//
+//            if (it == html.h2[1]) canStart = false
+//            newVersionHtml += it
+//        }
+//
+//    }
 
-    def verifyingHtmlFile = file('resources/html/changeLog.html')
-    def verifyingMarkdownFile = file("${projectDir.parent}/CHANGELOG.md")
 
-    def html = new XmlSlurper().parseText(verifyingHtmlFile.text)
-    def markdown = verifyingMarkdownFile.text
-
-    def htmlVersion = html.h2[0].toString().substring(1)
-
-    println("Current version set in Gradle: ${project['version']}")
-
-    println("Examining '${verifyingHtmlFile.canonicalPath}'")
-    println("\tVersion: ${htmlVersion}")
+//    println("Current version set in Gradle: ${project['version']}")
+//
+//    println("Examining '${verifyingHtmlFile.canonicalPath}'")
+//    println("\tVersion: ${htmlVersion}")
 
 //    if (!(htmlVersion == "${project['version']}")) {
 //        throw new GradleException("Verification Error :: Plugin version is out-of-date.\n" +
@@ -79,15 +95,19 @@ verifyPlugin {
 //                "(${mdVersion} --> ${project['version']})")
 //    }
 
-    println("Plugin versions are up-to-date")
+//    println("Plugin versions are up-to-date")
 
 }
 
 publishPlugin {
     username usernameJetBrainPluginRepo
     password passwordJetBrainPluginRepo
-//    channels 'eap'
-    distributionFile 'ChroMATERIAL.jar'
+    channels = ["eap"]
+//    distributionFile 'ChroMATERIAL.jar'
+}
+
+patchPluginXml {
+    sinceBuild 131
 }
 
 task copyGeneratedLibs() {
