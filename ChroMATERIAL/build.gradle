@@ -47,7 +47,7 @@ patchPluginXml {
 }
 
 verifyPlugin {
-//
+//    develop-branch
 //    def verifyingHtmlFile = file('resources/html/changeLog.html')
 //    def verifyingMarkdownFile = file("${projectDir.parent}/CHANGELOG.md")
 //
