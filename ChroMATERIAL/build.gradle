@@ -46,59 +46,6 @@ patchPluginXml {
 
 }
 
-verifyPlugin {
-//    develop-branch
-//    def verifyingHtmlFile = file('resources/html/changeLog.html')
-//    def verifyingMarkdownFile = file("${projectDir.parent}/CHANGELOG.md")
-//
-//    def html = new XmlSlurper().parseText(verifyingHtmlFile.text)
-//    def markdown = verifyingMarkdownFile.text
-//
-//    def htmlVersion = html.h2[0].toString().substring(1)
-//
-//    def canStart = false
-//
-//    def newVersionHtml
-//
-//    def temp = html.each {
-//        if (it == html.h2[0]) canStart = true
-//
-//        if (canStart && it.) {
-//
-//            if (it == html.h2[1]) canStart = false
-//            newVersionHtml += it
-//        }
-//
-//    }
-
-
-//    println("Current version set in Gradle: ${project['version']}")
-//
-//    println("Examining '${verifyingHtmlFile.canonicalPath}'")
-//    println("\tVersion: ${htmlVersion}")
-
-//    if (!(htmlVersion == "${project['version']}")) {
-//        throw new GradleException("Verification Error :: Plugin version is out-of-date.\n" +
-//                "Please add the correct version information to `${verifyingHtmlFile.name}` " +
-//                "(${htmlVersion} --> ${project['version']})")
-//    }
-
-//    def mdTemplate = "# ChroMATERIAL v"
-//    def mdVersion = markdown.substring(mdTemplate.length(), markdown.indexOf('\n'))
-
-//    println("Examining '${verifyingMarkdownFile.canonicalPath}'")
-//    println("\tVersion: ${mdVersion}")
-
-//    if (!(mdVersion == "${project['version']}")) {
-//        throw new GradleException("Verification Error :: Plugin version is out-of-date.\n" +
-//                "Please add the correct version information to `${verifyingMarkdownFile.name}` " +
-//                "(${mdVersion} --> ${project['version']})")
-//    }
-
-//    println("Plugin versions are up-to-date")
-
-}
-
 publishPlugin {
     username usernameJetBrainPluginRepo
     password passwordJetBrainPluginRepo
