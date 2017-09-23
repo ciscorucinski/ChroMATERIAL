@@ -1,8 +1,7 @@
-[![default_img]][readme]
-[![darcula_img]][readme] 
-[![darker_img]][readme] <br>
-[![lighter_img]][readme] &nbsp; 
-[![information]][statuses]
+[![default_img]][statuses]
+[![darcula_img]][statuses] 
+[![darker_img]][statuses] <br>
+[![lighter_img]][statuses] 
 
 [![plugin_img]][plugin_link] 
 [![android_arsenal_img]][android_arsenal_link] 
@@ -26,22 +25,22 @@ It's uniqueness lies in the idea...
 | Type          | Supported |
 | :-----------: | :-------- |
 | **IDEs**      | <kbd>Android Studio</kbd> <kbd>IntelliJ IDEA</kbd> <kbd>PyCharm</kbd> <kbd> RubyMine</kbd> <kbd>WebStorm</kbd> <kbd>PhpStorm</kbd> <kbd>AppCode</kbd> <kbd>CLion</kbd> <kbd>DataGrip</kbd> <!-- NOTES --> <br><sub><sup>ChroMATERIAL supports **Text Editor** changes only. <br>ChroMATERIAL + [Material Theme][chris-rm_theme] will modify the whole IDE!</sup></sub> |
-|||
-| **Languages** | <kbd>Java</kbd> <kbd>Kotlin</kbd> <kbd>Groovy</kbd> <kbd>XML</kbd> <kbd>JSON</kbd> <kbd>HTML</kbd> <kbd>Regex</kbd> <kbd>YAML</kbd> <!-- PLUGINS --><!-- <br><br> Support via Plugins <br> <kbd> ... </kbd> --> <br> <!-- NOTES --> <br><sub><sup>**Pull Requests** are welcome.</sup></sub> |
-|||
-| **Others**    | <kbd>Android</kbd> <kbd>Android Manifest</kbd> <kbd>Android Resources</kbd><kbd>Android Native (C / C++)</kbd> <kbd>Gradle</kbd> <kbd>Logcat</kbd> <kbd>Proguard Files</kbd> <kbd>Property Files</kbd> <kbd>Version Control</kbd> <kbd>Debugger</kbd> <kbd>Diff</kbd> <kbd>XSLT</kbd> <kbd>XPATH</kbd> <!-- PLUGINS --><br><br> Support via Plugins <br> <kbd>Ignore Files</kbd> <kbd>Markdown</kbd> <br> <!-- NOTES --> <br><sub><sup>**Pull Requests** are welcome.</sup></sub> |
+|               |           |
+| **Languages** | <kbd>Java</kbd> <kbd>Kotlin</kbd> <kbd>Groovy</kbd> <kbd>XML</kbd> <kbd>JSON</kbd> <kbd>HTML</kbd> <kbd>Regex</kbd> <kbd>YAML</kbd> <!-- PLUGINS --><!-- <br><br> Support via Plugins <br> <kbd> ... </kbd> <br> --> <!-- NOTES --> <br> <sub><sup>**Pull Requests** are welcome.</sup></sub> |
+|               |           |
+| **Others**    | <kbd>Android</kbd> <kbd>Android Manifest</kbd> <kbd>Android Resources</kbd><kbd>Android Native (C / C++)</kbd> <kbd>Gradle</kbd> <kbd>Logcat</kbd> <kbd>Proguard Files</kbd> <kbd>Property Files</kbd> <kbd>Version Control</kbd> <kbd>Debugger</kbd> <kbd>Diff</kbd> <kbd>XSLT</kbd> <kbd>XPATH</kbd> <!-- PLUGINS --><br><br> Support via Plugins <br> <kbd>Ignore Files</kbd> <kbd>Markdown</kbd> <br> <!-- NOTES --> <br> <sub><sup>**Pull Requests** are welcome.</sup></sub> |
 
 <!-- ========================================================== -->
 # Installation
 
 **Find Plugin**
- 1. Open IDE and locate <kbd>File >> Settings >> Plugins</kbd> and click <kbd>Browse Repositories...</kbd>
- 2. Search for and click <kbd>ChroMATERIAL</kbd> and click <kbd>Install plugin</kbd>
+ 1. Open IDE and locate <kbd>File >> Settings >> Plugins</kbd> and click <kbd>[Browse Repositories...][browse-repo]</kbd>
+ 2. Search for and click <kbd>ChroMATERIAL</kbd> and click <kbd>[Install plugin][install-plugin]</kbd>
 
 **Use Color Scheme** 
 
- 3. Locate <kbd>File >> Settings >> Editor >> Colors & Fonts >> Scheme</kbd> 
- 4. Choose <kbd>ChroMATERIAL</kbd> and click <kbd>Apply</kbd> / <kbd>OK</kbd>.
+  3. Locate <kbd>File >> Settings >> Editor >> Colors & Fonts >> Scheme</kbd> 
+  4. Choose a color scheme from the [drop-down menu][use-plugin] and click <kbd>Apply</kbd> / <kbd>OK</kbd>. <br> <kbd>ChroMATERIAL</kbd> <kbd>ChroMATERIAL - Darker</kbd> or <kbd>ChroMATERIAL - Darcula</kbd>
 
 ### Optional
 
@@ -89,6 +88,10 @@ It's uniqueness lies in the idea...
 [android-vision]: https://github.com/googlesamples/android-vision
 [chris-rm]: https://github.com/ChrisRM
 [chris-rm_theme]: https://github.com/ChrisRM/material-theme-jetbrains
+
+[browse-repo]: https://user-images.githubusercontent.com/8707125/30756120-3de0c354-a004-11e7-8653-d23a52eaabc7.png
+[install-plugin]: https://user-images.githubusercontent.com/8707125/30756128-4a247d22-a004-11e7-9676-5e23a0e4a2a5.png
+[use-plugin]: https://user-images.githubusercontent.com/8707125/30771281-a733fb12-a07e-11e7-9676-760a8cbe012c.png
 
 <!-- * * files * * -->
 [jar]: ChroMATERIAL/ChroMATERIAL.jar
