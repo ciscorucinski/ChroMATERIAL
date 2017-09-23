@@ -39,8 +39,8 @@ It's uniqueness lies in the idea...
 
 **Use Color Scheme** 
 
-  3. Locate <kbd>File >> Settings >> Editor >> Colors & Fonts >> Scheme</kbd> 
-  4. Choose a color scheme from the [drop-down menu][use-plugin] and click <kbd>Apply</kbd> / <kbd>OK</kbd>. <br> <kbd>ChroMATERIAL</kbd> <kbd>ChroMATERIAL - Darker</kbd> or <kbd>ChroMATERIAL - Darcula</kbd>
+  3. Locate <kbd>[File >> Settings >> Editor >> Color Scheme][use-plugin]</kbd> 
+  4. Choose a color scheme from the drop-down menu and click <kbd>Apply</kbd> / <kbd>OK</kbd>. <br> <kbd>ChroMATERIAL</kbd> <kbd>ChroMATERIAL - Darker</kbd> or <kbd>ChroMATERIAL - Darcula</kbd>
 
 ### Optional
 
