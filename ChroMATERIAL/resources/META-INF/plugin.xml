@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.facebook.rucinskic.chromaterial</id>
   <name>ChroMATERIAL</name>
-  <version>2.1</version>
+  <version>2.1.1</version>
   <vendor email="chromaterial.plugin@gmail.com" url="https://github.com/ciscorucinski/ChroMATERIAL">
     ChristopherRucinski
   </vendor>
@@ -22,6 +22,18 @@
   </description>
   <change-notes>
 
+        &lt;h2&gt;v2.1.1&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;Updated Support:&lt;/b&gt; Ignore Files&lt;/li&gt;
+            &lt;br/&gt;
+            &lt;li&gt;&lt;b&gt;Notable changes:&lt;/b&gt;&lt;/li&gt;
+            &lt;br/&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Fixed issue with ignore file headers and sections being incorrectly formatted. &lt;em&gt;(Closes #35)&lt;/em&gt;&lt;/li&gt;
+                &lt;li&gt;Fixed issue with ignore file negations being incorrectly formatted. &lt;em&gt;(Closes #36)&lt;/em&gt;&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/ul&gt;
+        
         &lt;h2&gt;v2.1&lt;/h2&gt;
         &lt;ul&gt;
             &lt;li&gt;&lt;b&gt;Updated Languages:&lt;/b&gt; Groovy&lt;/li&gt;

@@ -1,3 +1,16 @@
+# ChroMATERIAL v2.1.1
+
+##### Updated
+
+| Type             | Supported |
+| :--------------: | :-------- |
+| **Support**      | <kbd>Ignore Files</kbd> |
+
+##### Other Notable changes:
+
+ * Fixed issue with ignore file headers and sections being incorrectly formatted. (Closes #35)<br>
+ * Fixed issue with ignore file negations being incorrectly formatted. (Closes #36)<br>
+
 # ChroMATERIAL v2.1
 
 ##### Updated
