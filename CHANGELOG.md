@@ -1,3 +1,22 @@
+
+# ChroMATERIAL v2.2
+
+##### Updated
+
+| Type             | Supported |
+| :--------------: | :-------- |
+| **Theme**        | <kbd>ChroMATERIAL</kbd> <kbd>Darcula-compatible</kbd> <kbd>Darker</kbd> |
+
+##### Other Notable changes:
+
+ * Brought feature parity to all themes.
+ * Method separators are now visible if enabled.
+ * Breadcrumbs have a new style that is compatible with Android Studio and IntelliJ IDEs.
+ * Debugger has a new style. New colors and breakpoint lines are bold.
+ * Added bracket support to ignore files.
+ * Annotations are italic, and attribute names are purple.
+ * Diff & Merge have darker error stripe marks for conflicts and deleted text.
+
 # ChroMATERIAL v2.1.1
 
 ##### Updated
