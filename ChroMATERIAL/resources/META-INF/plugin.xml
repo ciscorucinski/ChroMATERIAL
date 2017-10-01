@@ -1,7 +1,7 @@
 <idea-plugin>
   <id>com.facebook.rucinskic.chromaterial</id>
   <name>ChroMATERIAL</name>
-  <version>2.1.1</version>
+  <version>2.2</version>
   <vendor email="chromaterial.plugin@gmail.com" url="https://github.com/ciscorucinski/ChroMATERIAL">
     ChristopherRucinski
   </vendor>
@@ -22,6 +22,22 @@
   </description>
   <change-notes>
 
+        &lt;h2&gt;v2.2&lt;/h2&gt;
+        &lt;ul&gt;
+            &lt;li&gt;&lt;b&gt;Updated Themes:&lt;/b&gt; Darcula-compatible, Darker&lt;/li&gt;
+            &lt;br/&gt;
+            &lt;li&gt;&lt;b&gt;Notable changes:&lt;/b&gt;&lt;/li&gt;
+            &lt;br/&gt;
+            &lt;ul&gt;
+                &lt;li&gt;Brought feature parity to all themes.&lt;/li&gt;
+                &lt;li&gt;Method separators are now visible if enabled.&lt;/li&gt;
+                &lt;li&gt;Breadcrumbs have a new style that is compatible with Android Studio and IntelliJ IDEs.&lt;/li&gt;
+                &lt;li&gt;Debugger has a new style. New colors and breakpoint lines are bold.&lt;/li&gt;
+                &lt;li&gt;Added bracket support to ignore files.&lt;/li&gt;
+                &lt;li&gt;Annotations are italic, and attribute names are purple.&lt;/li&gt;
+                &lt;li&gt;Diff &amp; Merge have darker error stripe marks for conflicts and deleted text&lt;/li&gt;
+            &lt;/ul&gt;
+        &lt;/ul&gt;
         &lt;h2&gt;v2.1.1&lt;/h2&gt;
         &lt;ul&gt;
             &lt;li&gt;&lt;b&gt;Updated Support:&lt;/b&gt; Ignore Files&lt;/li&gt;

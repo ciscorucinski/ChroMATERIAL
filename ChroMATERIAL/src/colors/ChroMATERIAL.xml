@@ -1,7 +1,7 @@
 <scheme name="ChroMATERIAL" version="142" parent_scheme="Default">
   <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="modified">2017-09-23T19:43:26</property>
+    <property name="modified">2017-09-30T20:09:20</property>
   </metaInfo>
   <font>
     <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
@@ -57,12 +57,12 @@
     <option name="INDENT_GUIDE" value="32424a" />
     <option name="INFORMATION_HINT" value="263238" />
     <option name="LINE_NUMBERS_COLOR" value="475f63" />
-    <option name="METHOD_SEPARATORS_COLOR" value="2e3c43" />
+    <option name="METHOD_SEPARATORS_COLOR" value="505c63" />
     <option name="MODIFIED_LINES_COLOR" value="7aafb8" />
     <option name="NOTIFICATION_BACKGROUND" value="862d34" />
     <option name="READONLY_BACKGROUND" value="15314b" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="15314b" />
-    <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
+    <option name="RECURSIVE_CALL_ATTRIBUTES" value="ba68c8" />
     <option name="RIGHT_MARGIN_COLOR" value="2e3c43" />
     <option name="SELECTED_INDENT_GUIDE" value="4a626b" />
     <option name="SELECTED_TEARLINE_COLOR" value="b2ff59" />
@@ -93,7 +93,8 @@
     </option>
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value>
-        <option name="FOREGROUND" value="546e7a" />
+        <option name="FOREGROUND" value="ba68c8" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
@@ -123,7 +124,7 @@
     </option>
     <option name="Anotation attribute name">
       <value>
-        <option name="FOREGROUND" value="546e7a" />
+        <option name="FOREGROUND" value="ba68c8" />
       </value>
     </option>
     <option name="BAD_CHARACTER">
@@ -180,30 +181,32 @@
     </option>
     <option name="BREADCRUMBS_CURRENT">
       <value>
-        <option name="FOREGROUND" value="b2ff59" />
-        <option name="EFFECT_COLOR" value="b2ff59" />
+        <option name="FOREGROUND" value="2b2b2b" />
+        <option name="BACKGROUND" value="b2ff59" />
       </value>
     </option>
     <option name="BREADCRUMBS_DEFAULT">
       <value>
-        <option name="FOREGROUND" value="4a626b" />
-        <option name="EFFECT_COLOR" value="32424a" />
+        <option name="FOREGROUND" value="b2ff59" />
+        <option name="BACKGROUND" value="32424a" />
+        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="BREADCRUMBS_HOVERED">
       <value>
-        <option name="EFFECT_COLOR" value="ffeb3b" />
+        <option name="FOREGROUND" value="2b2b2b" />
+        <option name="BACKGROUND" value="b2ff59" />
       </value>
     </option>
     <option name="BREADCRUMBS_INACTIVE">
       <value>
-        <option name="FOREGROUND" value="ffffff" />
-        <option name="EFFECT_COLOR" value="4a626b" />
+        <option name="FOREGROUND" value="4a626b" />
+        <option name="BACKGROUND" value="32424a" />
       </value>
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
-        <option name="BACKGROUND" value="263238" />
+        <option name="FONT_TYPE" value="3" />
       </value>
     </option>
     <option name="Bad character">
@@ -452,6 +455,7 @@
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="FOREGROUND" value="42a5f5" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -519,20 +523,20 @@
     </option>
     <option name="DEBUGGER_INLINED_VALUES">
       <value>
-        <option name="FOREGROUND" value="42a5f5" />
+        <option name="FOREGROUND" value="b2ff59" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEBUGGER_INLINED_VALUES_EXECUTION_LINE">
       <value>
         <option name="FOREGROUND" value="b2ff59" />
-        <option name="FONT_TYPE" value="3" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="DEBUGGER_INLINED_VALUES_MODIFIED">
       <value>
-        <option name="FOREGROUND" value="ba68c8" />
+        <option name="FOREGROUND" value="ffeb3b" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -672,6 +676,7 @@
     <option name="DEFAULT_METADATA">
       <value>
         <option name="FOREGROUND" value="546e7a" />
+        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -683,11 +688,6 @@
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="78909c" />
-      </value>
-    </option>
-    <option name="DEFAULT_PARAMETER">
-      <value>
-        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
@@ -759,13 +759,13 @@
     <option name="DIFF_CONFLICT">
       <value>
         <option name="BACKGROUND" value="2e0f10" />
-        <option name="ERROR_STRIPE_COLOR" value="f0475c" />
+        <option name="ERROR_STRIPE_COLOR" value="cc382d" />
       </value>
     </option>
     <option name="DIFF_DELETED">
       <value>
         <option name="BACKGROUND" value="101518" />
-        <option name="ERROR_STRIPE_COLOR" value="90a4ae" />
+        <option name="ERROR_STRIPE_COLOR" value="101518" />
       </value>
     </option>
     <option name="DIFF_INSERTED">
@@ -832,6 +832,7 @@
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="376c89" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -870,9 +871,7 @@
       </value>
     </option>
     <option name="Groovy parameter">
-      <value>
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
+      <value />
     </option>
     <option name="Groovy reassigned parameter">
       <value>
@@ -881,14 +880,10 @@
       </value>
     </option>
     <option name="Groovy reassigned var">
-      <value>
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
+      <value />
     </option>
     <option name="Groovy var">
-      <value>
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
+      <value />
     </option>
     <option name="Groovydoc comment">
       <value>
@@ -954,6 +949,7 @@
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="42a5f5" />
+        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -962,6 +958,11 @@
         <option name="BACKGROUND" value="32424a" />
         <option name="ERROR_STRIPE_COLOR" value="32424a" />
         <option name="EFFECT_TYPE" value="1" />
+      </value>
+    </option>
+    <option name="IGNORE.BRACKET">
+      <value>
+        <option name="FOREGROUND" value="546e7a" />
       </value>
     </option>
     <option name="IGNORE.COMMENT">
@@ -1550,9 +1551,7 @@
       </value>
     </option>
     <option name="LAMBDA_PARAMETER_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
+      <value />
     </option>
     <option name="LINE_FULL_COVERAGE">
       <value>
@@ -1580,9 +1579,7 @@
       </value>
     </option>
     <option name="LOCAL_VARIABLE_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="5" />
-      </value>
+      <value />
     </option>
     <option name="LOGCAT_ASSERT_OUTPUT">
       <value>
@@ -2249,6 +2246,11 @@
         <option name="FOREGROUND" value="b2ff59" />
       </value>
     </option>
+    <option name="NOT_TOP_FRAME_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="546e7a" />
+      </value>
+    </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FONT_TYPE" value="2" />
@@ -2332,9 +2334,7 @@
       </value>
     </option>
     <option name="PARAMETER_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
+      <value />
     </option>
     <option name="PHP_CLASS">
       <value>
@@ -2408,9 +2408,7 @@
       </value>
     </option>
     <option name="REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES">
-      <value>
-        <option name="EFFECT_TYPE" value="1" />
-      </value>
+      <value />
     </option>
     <option name="REASSIGNED_PARAMETER_ATTRIBUTES">
       <value>
@@ -2726,8 +2724,8 @@
     <option name="WARNING_ATTRIBUTES">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="e6e644" />
-        <option name="ERROR_STRIPE_COLOR" value="e6e644" />
+        <option name="EFFECT_COLOR" value="ffeb3b" />
+        <option name="ERROR_STRIPE_COLOR" value="ffeb3b" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
