@@ -1,26 +1,8 @@
 <scheme name="ChroMATERIAL" version="142" parent_scheme="Default">
-  <option name="FONT_SCALE" value="1.0" />
   <metaInfo>
-    <property name="modified">2017-09-30T20:09:20</property>
+    <property name="modified">2017-11-08T19:29:39</property>
+    <property name="originalScheme">ChroMATERIAL</property>
   </metaInfo>
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-    <option name="EDITOR_FONT_SIZE" value="11" />
-  </font>
-  <font>
-    <option name="EDITOR_FONT_NAME" value="Monospaced" />
-    <option name="EDITOR_FONT_SIZE" value="11" />
-  </font>
-  <option name="EDITOR_LIGATURES" value="true" />
-  <console-font>
-    <option name="EDITOR_FONT_NAME" value="Source Code Pro" />
-    <option name="EDITOR_FONT_SIZE" value="11" />
-  </console-font>
-  <console-font>
-    <option name="EDITOR_FONT_NAME" value="Monospaced" />
-    <option name="EDITOR_FONT_SIZE" value="11" />
-  </console-font>
-  <option name="CONSOLE_LIGATURES" value="true" />
   <colors>
     <option name="ADDED_LINES_COLOR" value="8fa859" />
     <option name="ANNOTATIONS_COLOR" value="8b999f" />
@@ -29,6 +11,8 @@
     <option name="CARET_ROW_COLOR" value="29363d" />
     <option name="CONSOLE_BACKGROUND_KEY" value="263238" />
     <option name="DELETED_LINES_COLOR" value="f77669" />
+    <option name="DIFF_SEPARATORS_BACKGROUND" value="546e7a" />
+    <option name="DIFF_SEPARATORS_TOP_BORDER" value="" />
     <option name="DOCUMENTATION_COLOR" value="263238" />
     <option name="ERROR_HINT" value="862d34" />
     <option name="FILESTATUS_ADDED" value="80cbc4" />
@@ -57,13 +41,13 @@
     <option name="INDENT_GUIDE" value="32424a" />
     <option name="INFORMATION_HINT" value="263238" />
     <option name="LINE_NUMBERS_COLOR" value="475f63" />
-    <option name="METHOD_SEPARATORS_COLOR" value="505c63" />
+    <option name="METHOD_SEPARATORS_COLOR" value="2e3c43" />
     <option name="MODIFIED_LINES_COLOR" value="7aafb8" />
     <option name="NOTIFICATION_BACKGROUND" value="862d34" />
     <option name="READONLY_BACKGROUND" value="15314b" />
     <option name="READONLY_FRAGMENT_BACKGROUND" value="15314b" />
-    <option name="RECURSIVE_CALL_ATTRIBUTES" value="ba68c8" />
-    <option name="RIGHT_MARGIN_COLOR" value="2e3c43" />
+    <option name="RECURSIVE_CALL_ATTRIBUTES" value="574300" />
+    <option name="RIGHT_MARGIN_COLOR" value="32424a" />
     <option name="SELECTED_INDENT_GUIDE" value="4a626b" />
     <option name="SELECTED_TEARLINE_COLOR" value="b2ff59" />
     <option name="SELECTION_BACKGROUND" value="4c6571" />
@@ -77,6 +61,7 @@
     <option name="VCS_ANNOTATIONS_COLOR_3" value="3c5058" />
     <option name="VCS_ANNOTATIONS_COLOR_4" value="475d67" />
     <option name="VCS_ANNOTATIONS_COLOR_5" value="546e7a" />
+    <option name="VISUAL_INDENT_GUIDE" value="2e3c43" />
     <option name="WHITESPACES" value="4a626b" />
     <option name="WHITESPACES_MODIFIED_LINES_COLOR" value="7aafb8" />
   </colors>
@@ -94,7 +79,6 @@
     <option name="ANNOTATION_ATTRIBUTE_NAME_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ba68c8" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="ANNOTATION_NAME_ATTRIBUTES">
@@ -124,7 +108,7 @@
     </option>
     <option name="Anotation attribute name">
       <value>
-        <option name="FOREGROUND" value="ba68c8" />
+        <option name="FOREGROUND" value="546e7a" />
       </value>
     </option>
     <option name="BAD_CHARACTER">
@@ -189,7 +173,6 @@
       <value>
         <option name="FOREGROUND" value="b2ff59" />
         <option name="BACKGROUND" value="32424a" />
-        <option name="EFFECT_TYPE" value="4" />
       </value>
     </option>
     <option name="BREADCRUMBS_HOVERED">
@@ -206,7 +189,7 @@
     </option>
     <option name="BREAKPOINT_ATTRIBUTES">
       <value>
-        <option name="FONT_TYPE" value="3" />
+        <option name="BACKGROUND" value="263238" />
       </value>
     </option>
     <option name="Bad character">
@@ -455,7 +438,6 @@
     <option name="CTRL_CLICKABLE">
       <value>
         <option name="FOREGROUND" value="42a5f5" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -523,20 +505,20 @@
     </option>
     <option name="DEBUGGER_INLINED_VALUES">
       <value>
-        <option name="FOREGROUND" value="b2ff59" />
+        <option name="FOREGROUND" value="42a5f5" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEBUGGER_INLINED_VALUES_EXECUTION_LINE">
       <value>
         <option name="FOREGROUND" value="b2ff59" />
-        <option name="FONT_TYPE" value="2" />
+        <option name="FONT_TYPE" value="3" />
         <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="DEBUGGER_INLINED_VALUES_MODIFIED">
       <value>
-        <option name="FOREGROUND" value="ffeb3b" />
+        <option name="FOREGROUND" value="ba68c8" />
         <option name="FONT_TYPE" value="2" />
       </value>
     </option>
@@ -676,7 +658,6 @@
     <option name="DEFAULT_METADATA">
       <value>
         <option name="FOREGROUND" value="546e7a" />
-        <option name="FONT_TYPE" value="2" />
       </value>
     </option>
     <option name="DEFAULT_NUMBER">
@@ -688,6 +669,11 @@
     <option name="DEFAULT_OPERATION_SIGN">
       <value>
         <option name="FOREGROUND" value="78909c" />
+      </value>
+    </option>
+    <option name="DEFAULT_PARAMETER">
+      <value>
+        <option name="EFFECT_TYPE" value="5" />
       </value>
     </option>
     <option name="DEFAULT_PARENTHS">
@@ -759,13 +745,13 @@
     <option name="DIFF_CONFLICT">
       <value>
         <option name="BACKGROUND" value="2e0f10" />
-        <option name="ERROR_STRIPE_COLOR" value="cc382d" />
+        <option name="ERROR_STRIPE_COLOR" value="f0475c" />
       </value>
     </option>
     <option name="DIFF_DELETED">
       <value>
         <option name="BACKGROUND" value="101518" />
-        <option name="ERROR_STRIPE_COLOR" value="101518" />
+        <option name="ERROR_STRIPE_COLOR" value="90a4ae" />
       </value>
     </option>
     <option name="DIFF_INSERTED">
@@ -832,7 +818,6 @@
     <option name="FOLLOWED_HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="376c89" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -871,7 +856,9 @@
       </value>
     </option>
     <option name="Groovy parameter">
-      <value />
+      <value>
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
     </option>
     <option name="Groovy reassigned parameter">
       <value>
@@ -880,10 +867,14 @@
       </value>
     </option>
     <option name="Groovy reassigned var">
-      <value />
+      <value>
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
     </option>
     <option name="Groovy var">
-      <value />
+      <value>
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
     </option>
     <option name="Groovydoc comment">
       <value>
@@ -949,7 +940,6 @@
     <option name="HYPERLINK_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="42a5f5" />
-        <option name="FONT_TYPE" value="2" />
         <option name="EFFECT_TYPE" value="1" />
       </value>
     </option>
@@ -958,11 +948,6 @@
         <option name="BACKGROUND" value="32424a" />
         <option name="ERROR_STRIPE_COLOR" value="32424a" />
         <option name="EFFECT_TYPE" value="1" />
-      </value>
-    </option>
-    <option name="IGNORE.BRACKET">
-      <value>
-        <option name="FOREGROUND" value="546e7a" />
       </value>
     </option>
     <option name="IGNORE.COMMENT">
@@ -1007,8 +992,8 @@
     <option name="INFO_ATTRIBUTES">
       <value>
         <option name="FONT_TYPE" value="2" />
-        <option name="EFFECT_COLOR" value="ff9800" />
-        <option name="ERROR_STRIPE_COLOR" value="ff9800" />
+        <option name="EFFECT_COLOR" value="78909c" />
+        <option name="ERROR_STRIPE_COLOR" value="78909c" />
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
@@ -1027,6 +1012,12 @@
     <option name="INLINE_PARAMETER_HINT">
       <value>
         <option name="FOREGROUND" value="ffeb3b" />
+      </value>
+    </option>
+    <option name="INLINE_PARAMETER_HINT_HIGHLIGHTED">
+      <value>
+        <option name="FOREGROUND" value="ffeb3b" />
+        <option name="BACKGROUND" value="546e7a" />
       </value>
     </option>
     <option name="INSTANCE_FIELD_ATTRIBUTES">
@@ -1551,7 +1542,9 @@
       </value>
     </option>
     <option name="LAMBDA_PARAMETER_ATTRIBUTES">
-      <value />
+      <value>
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
     </option>
     <option name="LINE_FULL_COVERAGE">
       <value>
@@ -1579,7 +1572,9 @@
       </value>
     </option>
     <option name="LOCAL_VARIABLE_ATTRIBUTES">
-      <value />
+      <value>
+        <option name="EFFECT_TYPE" value="5" />
+      </value>
     </option>
     <option name="LOGCAT_ASSERT_OUTPUT">
       <value>
@@ -1950,6 +1945,16 @@
         <option name="FOREGROUND" value="b2ff59" />
       </value>
     </option>
+    <option name="MARKED_FOR_REMOVAL_ATTRIBUTES">
+      <value>
+        <option name="FOREGROUND" value="ffeb3b" />
+        <option name="BACKGROUND" value="f44336" />
+        <option name="FONT_TYPE" value="2" />
+        <option name="EFFECT_COLOR" value="ffeb3b" />
+        <option name="ERROR_STRIPE_COLOR" value="f44336" />
+        <option name="EFFECT_TYPE" value="3" />
+      </value>
+    </option>
     <option name="MATCHED_BRACE_ATTRIBUTES">
       <value>
         <option name="FOREGROUND" value="ffeb3b" />
@@ -2246,11 +2251,6 @@
         <option name="FOREGROUND" value="b2ff59" />
       </value>
     </option>
-    <option name="NOT_TOP_FRAME_ATTRIBUTES">
-      <value>
-        <option name="BACKGROUND" value="546e7a" />
-      </value>
-    </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
       <value>
         <option name="FONT_TYPE" value="2" />
@@ -2334,7 +2334,9 @@
       </value>
     </option>
     <option name="PARAMETER_ATTRIBUTES">
-      <value />
+      <value>
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
     </option>
     <option name="PHP_CLASS">
       <value>
@@ -2408,7 +2410,9 @@
       </value>
     </option>
     <option name="REASSIGNED_LOCAL_VARIABLE_ATTRIBUTES">
-      <value />
+      <value>
+        <option name="EFFECT_TYPE" value="1" />
+      </value>
     </option>
     <option name="REASSIGNED_PARAMETER_ATTRIBUTES">
       <value>

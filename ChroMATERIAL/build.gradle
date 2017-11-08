@@ -1,6 +1,7 @@
 intellij {
     pluginName 'ChroMATERIAL'
     updateSinceUntilBuild false
+//    sameSinceUntilBuild true
 }
 
 sourceSets {
@@ -19,26 +20,18 @@ sourceSets {
 def GROUP_CHROMATERIAL = 'ChroMATERIAL'
 
 group 'com.facebook.rucinskic.chromaterial' //'io.github.ciscorucinski.chromaterial'
-version '2.2'
+version '2.5'
 
 def sourceDir = 'src/colors'
-def intelliJColorSchemeDir = "C:\\Users\\Christopher\\.Idea${intellij.type}${intellij.version}\\config\\colors"
+def intelliJColorSchemeDir = "C:\\Users\\Christopher\\.Idea${intellij.type}2017.3\\config\\colors"
 
-def contentIndex = "        "
-def tagIndex = "  "
-
-def htmlFixer = {f -> file(f).text
-        .replace('\n', "\n${contentIndex}")     // Add indentation to make plugin.xml look good
-        .trim()
-        .replace('<html>', '\n')
-        .replace("</html>", "\n${tagIndex}")
-}
+def htmlFixer = { f -> file(f).text.replace('<html>', '').replace('</html>', '') }
 
 patchPluginXml {
 
     pluginId 'com.facebook.rucinskic.chromaterial'
     version project['version'] // Plugin version
-//    sinceBuild '131'
+    sinceBuild '131'
 //    untilBuild '999.*'
 
     pluginDescription htmlFixer('resources/html/pluginDescription.html')
@@ -49,12 +42,8 @@ patchPluginXml {
 publishPlugin {
     username usernameJetBrainPluginRepo
     password passwordJetBrainPluginRepo
-    channels = ["eap"]
+//    channels = ["eap"]
 //    distributionFile 'ChroMATERIAL.jar'
-}
-
-patchPluginXml {
-    sinceBuild 131
 }
 
 task copyGeneratedLibs() {
@@ -74,6 +63,7 @@ task syncFiles(type: Copy) {
 
     into sourceDir
     from intelliJColorSchemeDir, {
+        exclude "_@user_*"
         rename 'ChroMATERIAL IntelliJ IDEA.icls', 'ChroMATERIAL.xml'
         rename '(.*)\\.icls$', '$1.xml'
     }
