@@ -1,14 +1,24 @@
 
-# ChroMATERIAL v2.2
+# ChroMATERIAL v2.5
+
+##### Added
+
+| Type             | Supported |
+| :--------------: | :-------- |
+| **Features**     | **NEW** <kbd>2017.3</kbd> features |
 
 ##### Updated
 
 | Type             | Supported |
 | :--------------: | :-------- |
-| **Theme**        | <kbd>ChroMATERIAL</kbd> <kbd>Darcula-compatible</kbd> <kbd>Darker</kbd> |
+| **Theme**        | <kbd>All</kbd> |
 
 ##### Other Notable changes:
 
+ * Added Marked for removal methods. (2017.3)
+ * Added Inline parameter hints. (2017.3)
+ * Added Diff separator color. (2017.3)
+ * Added Visual indent guide. (2017.3)
  * Brought feature parity to all themes.
  * Method separators are now visible if enabled.
  * Breadcrumbs have a new style that is compatible with Android Studio and IntelliJ IDEs.
