@@ -20,7 +20,7 @@ sourceSets {
 def GROUP_CHROMATERIAL = 'ChroMATERIAL'
 
 group 'com.facebook.rucinskic.chromaterial' //'io.github.ciscorucinski.chromaterial'
-version '2.5'
+version '2.5.1'
 
 def sourceDir = 'src/colors'
 def intelliJColorSchemeDir = "C:\\Users\\Christopher\\.Idea${intellij.type}2017.3\\config\\colors"

@@ -1,3 +1,15 @@
+# ChroMATERIAL v2.5.1
+
+#### Updated
+
+| Type             | Supported |
+| :--------------: | :-------- |
+| **Support**      | Debugger  |
+
+##### Other Notable changes:
+
+ * Fixed Stack Frame colors for Frames not on the top.
+ * Fixed Evaluated Expression Text on hover.
 
 # ChroMATERIAL v2.5
 

@@ -801,6 +801,16 @@
         <option name="EFFECT_TYPE" value="2" />
       </value>
     </option>
+    <option name="EVALUATED_EXPRESSION_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="121212"/>
+      </value>
+    </option>
+    <option name="EVALUATED_EXPRESSION_EXECUTION_LINE_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="121212"/>
+      </value>
+    </option>
     <option name="EXECUTIONPOINT_ATTRIBUTES">
       <value>
         <option name="BACKGROUND" value="862d34" />
@@ -2252,6 +2262,11 @@
     <option name="Method call">
       <value>
         <option name="FOREGROUND" value="b2ff59" />
+      </value>
+    </option>
+    <option name="NOT_TOP_FRAME_ATTRIBUTES">
+      <value>
+        <option name="BACKGROUND" value="15314b"/>
       </value>
     </option>
     <option name="NOT_USED_ELEMENT_ATTRIBUTES">
