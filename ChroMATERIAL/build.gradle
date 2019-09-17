@@ -23,7 +23,8 @@ group 'com.facebook.rucinskic.chromaterial' //'io.github.ciscorucinski.chromater
 version '2.5.1'
 
 def sourceDir = 'src/colors'
-def intelliJColorSchemeDir = "C:\\Users\\Christopher\\.Idea${intellij.type}2017.3\\config\\colors"
+//def intelliJColorSchemeDir = "C:\\Users\\Christopher\\.Idea${intellij.type}2017.3\\config\\colors"
+def intelliJColorSchemeDir = "/home/ciscorucinski/.IdeaIU2019.3/config/colors"
 
 def htmlFixer = { f -> file(f).text.replace('<html>', '').replace('</html>', '') }
 
@@ -98,7 +99,7 @@ tasks.create(name: "copyJar_v${project['version']}") {
     def mostCurrentJarFile = "ChroMATERIAL-${project['version']}.jar"
 
     copy {
-        into '/'
+        into "${rootDir}"
         from 'build/libs', {
             include mostCurrentJarFile
             rename mostCurrentJarFile, 'ChroMATERIAL.jar'
