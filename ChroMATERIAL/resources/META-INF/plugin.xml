@@ -146,9 +146,9 @@
   <idea-version since-build="131"/>
   <depends>com.intellij.modules.lang</depends>
   <extensions defaultExtensionNs="com.intellij">
-    <bundledColorScheme path="colors/ChroMATERIAL"/>
-    <bundledColorScheme path="colors/ChroMATERIAL -- Darker"/>
-    <bundledColorScheme path="colors/ChroMATERIAL -- Darcula"/>
+    <bundledColorScheme id="chromaterial" path="colors/ChroMATERIAL"/>
+    <bundledColorScheme id="chromaterial-darker" path="colors/ChroMATERIAL -- Darker"/>
+    <bundledColorScheme id="chromaterial-darcula" path="colors/ChroMATERIAL -- Darcula"/>
   </extensions>
   <application-components/>
   <project-components/>
